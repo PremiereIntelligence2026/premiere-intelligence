@@ -1,0 +1,29 @@
+name: Test Email with Audio Button
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test-email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install httpx
+      - name: Send test email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python test_email.py
+      - name: Commit test audio
+        run: |
+          git config --global user.name "Premiere Intelligence Bot"
+          git config --global user.email "bot@premiere-intelligence.com"
+          git add audio/ 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: test audio [skip ci]"
+          git push

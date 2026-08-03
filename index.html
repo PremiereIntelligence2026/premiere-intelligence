@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isabella's Alerts — The Luxury-Tech Briefing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --blush:     #f5e6e0;
+      --blush-mid: #edddd6;
+      --ink:       #1a1410;
+      --mink:      #7a6358;
+      --gold:      #b89a72;
+      --gold-light:#d4b896;
+      --rule:      #c9b5a8;
+      --white:     #fdfaf8;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--blush);
+      color: var(--ink);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      padding: 3rem 2rem 0;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .date-line {
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      color: var(--mink);
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .title-block h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 10vw, 5.5rem);
+      font-weight: 600;
+      line-height: 0.92;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+
+    .title-block .tagline {
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--mink);
+      margin-top: 0.8rem;
+    }
+
+    .refresh-btn {
+      background: none;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.55rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      margin-top: 0.4rem;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+      flex-shrink: 0;
+    }
+    .refresh-btn:hover { background: var(--gold); color: var(--white); }
+
+    .rule { border: none; border-top: 1.5px solid var(--ink); margin: 1.4rem 0 0; }
+
+    /* ── MAIN ── */
+    main { max-width: 780px; margin: 0 auto; padding: 0 2rem 4rem; }
+
+    /* ── STATUS BADGE ── */
+    .status-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin: 1.6rem 0;
+    }
+    .status-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--gold);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; } 50% { opacity: 0.3; }
+    }
+    .status-text {
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--mink);
+    }
+
+    /* ── LOADING ── */
+    #loading {
+      text-align: center;
+      padding: 4rem 0;
+      display: none;
+    }
+    #loading .spinner {
+      width: 24px; height: 24px;
+      border: 1.5px solid var(--rule);
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #loading p {
+      font-size: 0.6rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--mink);
+    }
+
+    /* ── SUMMARY LEDE ── */
+    #lede {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--ink);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 1.4rem 0;
+      margin-bottom: 2rem;
+      display: none;
+    }
+
+    /* ── STORY CARD ── */
+    .story {
+      border-bottom: 1px solid var(--rule);
+      padding: 2rem 0;
+      opacity: 0;
+      transform: translateY(12px);
+      animation: fadeUp 0.5s forwards;
+    }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .story-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.7rem;
+    }
+
+    .category {
+      font-size: 0.55rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--mink);
+    }
+
+    .score-bar {
+      display: flex;
+      gap: 3px;
+    }
+    .score-pip {
+      width: 10px; height: 4px;
+      background: var(--rule);
+      border-radius: 1px;
+    }
+    .score-pip.lit { background: var(--gold); }
+
+    .story h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.8rem;
+      color: var(--ink);
+    }
+
+    .story p {
+      font-size: 0.78rem;
+      line-height: 1.75;
+      color: #3a2e28;
+      margin-bottom: 1rem;
+    }
+
+    .story-footer {
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+    }
+
+    .source {
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      color: var(--mink);
+    }
+
+    .read-link {
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--gold);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .read-link:hover { color: var(--ink); }
+
+    /* ── EMPTY STATE ── */
+    #empty {
+      text-align: center;
+      padding: 3rem 0;
+      display: none;
+    }
+    #empty p {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--mink);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.55rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--rule);
+      border-top: 1px solid var(--blush-mid);
+    }
+
+    /* ── SUBSCRIBE BANNER ── */
+    .subscribe-banner {
+      background: var(--ink);
+      color: var(--white);
+      padding: 1.6rem 2rem;
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .subscribe-banner p {
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 0.4rem;
+    }
+    .subscribe-banner strong {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <p class="date-line" id="dateLine">Loading…</p>
+  <div class="masthead">
+    <div class="title-block">
+      <h1>ISABELLA'S<br>ALERTS</h1>
+      <p class="tagline">The luxury-tech briefing</p>
+    </div>
+    <button class="refresh-btn" onclick="fetchBriefing()">↻ &nbsp;Refresh</button>
+  </div>
+  <hr class="rule" />
+</header>
+
+<main>
+  <div class="status-bar">
+    <div class="status-dot"></div>
+    <span class="status-text" id="statusText">Ready</span>
+  </div>
+
+  <!-- API KEY INPUT -->
+  <div id="apiSection" style="margin-bottom:1.6rem;">
+    <label style="font-size:0.55rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--mink);display:block;margin-bottom:0.5rem;">Anthropic API Key</label>
+    <input type="password" id="apiKey" placeholder="sk-ant-..."
+      style="width:100%;padding:0.7rem 0.9rem;border:1px solid var(--rule);background:var(--white);font-family:'Montserrat',sans-serif;font-size:0.75rem;color:var(--ink);outline:none;margin-bottom:0.6rem;" />
+    <button onclick="fetchBriefing()"
+      style="width:100%;padding:0.85rem;background:var(--ink);color:var(--white);border:none;font-family:'Montserrat',sans-serif;font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;cursor:pointer;">
+      Fetch Latest
+    </button>
+    <p style="font-size:0.55rem;color:var(--mink);margin-top:0.5rem;">Your key is sent directly to Anthropic's API and is never stored or logged.</p>
+    <p id="errorMsg" style="font-size:0.6rem;font-style:italic;color:#b05a5a;margin-top:0.4rem;display:none;"></p>
+  </div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Curating today's intelligence…</p>
+  </div>
+
+  <div id="lede"></div>
+  <div id="stories"></div>
+  <div id="empty"><p>Nothing cleared the bar today. Try again tomorrow.</p></div>
+
+  <div class="subscribe-banner">
+    <p>Delivered every weekday at 7:30 AM</p>
+    <strong>Isabella's Alerts — automated edition</strong>
+  </div>
+</main>
+
+<footer>Isabella's Alerts &nbsp;·&nbsp; The luxury-tech briefing &nbsp;·&nbsp; Updated daily</footer>
+
+<script>
+  // Set today's date
+  const now = new Date();
+  document.getElementById('dateLine').textContent =
+    now.toLocaleDateString('en-US', { weekday:'long', day:'numeric', month:'long', year:'numeric' }).toUpperCase();
+
+  const CATEGORIES = [
+    'MAISONS & BRANDS',
+    'CREATIVE & CAMPAIGNS',
+    'POLICY & RISK',
+    'COMMERCE & RETAIL',
+    'DATA & PERFORMANCE',
+    'MEDIA & PLATFORMS',
+  ];
+
+  const SYSTEM_PROMPT = `You are the editor of "Isabella's Alerts," a daily luxury-tech intelligence briefing for senior executives at LVMH. Your reader works in Media Data & Performance at a world-class luxury conglomerate.
+
+Your job: surface 5–8 of the most signal-rich stories from TODAY at the intersection of:
+- AI + luxury fashion (LVMH, Kering, Richemont, Hermès, Prada, etc.)
+- AI + media / advertising / performance marketing
+- Media, data & tech shaping the luxury industry
+
+CRITICAL RULES:
+1. Only include stories you are highly confident are REAL and verifiable. If uncertain, omit.
+2. Every story MUST have a plausible, specific source (e.g. "Vogue Business", "WWD", "The Information", "Ad Age", "Financial Times").
+3. Write in a sharp, confident editorial voice — no fluff, no hedging.
+4. Score each story 1–5 for relevance to a luxury media executive.
+5. Assign each story one category from: MAISONS & BRANDS, CREATIVE & CAMPAIGNS, POLICY & RISK, COMMERCE & RETAIL, DATA & PERFORMANCE, MEDIA & PLATFORMS.
+
+Return ONLY valid JSON in this exact format, no markdown, no preamble:
+{
+  "date": "Day, D Month YYYY",
+  "lede": "One sentence editorial summary of today's signal.",
+  "count": 6,
+  "stories": [
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 5,
+      "headline": "Story headline here",
+      "summary": "3–4 sentence sharp editorial summary.",
+      "source": "Publication Name",
+      "sourceDate": "D Mon",
+      "url": "https://example.com/article"
+    }
+  ]
+}`;
+
+  async function fetchBriefing() {
+    const key = document.getElementById('apiKey').value.trim();
+    if (!key) { showError('Please enter your Anthropic API key.'); return; }
+
+    setStatus('Fetching intelligence…');
+    document.getElementById('loading').style.display = 'block';
+    document.getElementById('stories').innerHTML = '';
+    document.getElementById('lede').style.display = 'none';
+    document.getElementById('empty').style.display = 'none';
+    document.getElementById('errorMsg').style.display = 'none';
+
+    const today = now.toLocaleDateString('en-US', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': key,
+          'anthropic-version': '2023-06-01',
+          'anthropic-dangerous-direct-browser-access': 'true',
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 3000,
+          tools: [{ type: 'web_search_20250305', name: 'web_search' }],
+          system: SYSTEM_PROMPT,
+          messages: [{
+            role: 'user',
+            content: `Today is ${today}. Search for the most important real news stories from the last 24–48 hours at the intersection of AI, luxury, media, and technology. Return only verified, linkable stories in the JSON format specified.`
+          }]
+        })
+      });
+
+      if (!res.ok) {
+        const err = await res.json();
+        throw new Error(err.error?.message || `API error ${res.status}`);
+      }
+
+      const data = await res.json();
+      const text = data.content
+        .filter(b => b.type === 'text')
+        .map(b => b.text)
+        .join('');
+
+      const clean = text.replace(/```json|```/g, '').trim();
+      const json = JSON.parse(clean);
+
+      document.getElementById('loading').style.display = 'none';
+
+      if (!json.stories || json.stories.length === 0) {
+        document.getElementById('empty').style.display = 'block';
+        setStatus('No stories today');
+        return;
+      }
+
+      // Lede
+      const ledeEl = document.getElementById('lede');
+      ledeEl.textContent = `${json.date}. ${json.stories.length} stories cleared the bar today — ${json.lede}`;
+      ledeEl.style.display = 'block';
+
+      // Stories
+      const container = document.getElementById('stories');
+      json.stories
+        .sort((a, b) => b.score - a.score)
+        .forEach((s, i) => {
+          const card = document.createElement('div');
+          card.className = 'story';
+          card.style.animationDelay = `${i * 0.08}s`;
+
+          const pips = Array.from({length: 5}, (_, j) =>
+            `<div class="score-pip ${j < s.score ? 'lit' : ''}"></div>`
+          ).join('');
+
+          card.innerHTML = `
+            <div class="story-meta">
+              <span class="category">${s.category}</span>
+              <div class="score-bar">${pips}</div>
+            </div>
+            <h2>${s.headline}</h2>
+            <p>${s.summary}</p>
+            <div class="story-footer">
+              <span class="source">${s.source} &mdash; ${s.sourceDate}</span>
+              ${s.url && s.url.startsWith('http')
+                ? `<a href="${s.url}" target="_blank" rel="noopener" class="read-link">Read &rarr;</a>`
+                : ''}
+            </div>
+          `;
+          container.appendChild(card);
+        });
+
+      setStatus(`${json.stories.length} stories · ${today}`);
+
+    } catch (e) {
+      document.getElementById('loading').style.display = 'none';
+      showError(e.message.includes('401') ? 'Invalid API key — check and try again.' : `Error: ${e.message}`);
+      setStatus('Error');
+    }
+  }
+
+  function setStatus(msg) {
+    document.getElementById('statusText').textContent = msg;
+  }
+  function showError(msg) {
+    const el = document.getElementById('errorMsg');
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+</script>
+</body>
+</html>
