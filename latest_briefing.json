@@ -1,52 +1,52 @@
 {
-  "date": "Wednesday, 15 July 2026",
-  "lede": "Adobe breaks from walled-garden dependence with first-party AI bidding; L'Or\u00e9al locks in Gucci Beauty for 50 years; and the AI ad stack reshapes measurement, orchestration and brand safety in a single week.",
+  "date": "Tuesday, 4 August 2026",
+  "lede": "The week's signal: AI is no longer a luxury experiment \u2014 it's restructuring measurement, media publishing, commerce execution, and the very channels through which luxury brands reach high-value consumers.",
   "stories": [
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "Adobe Advertising Launches Custom Algorithms \u2014 First DSP to Train Campaign Bidding Directly on a Brand's Own First-Party Data",
-      "summary": "Adobe Advertising has released its Custom Algorithms product, allowing brands to train AI bidding models on raw Adobe Analytics data rather than filtered API signals \u2014 bypassing walled-garden data entirely. Unlike Google's PMax or Meta's Advantage+, the model belongs to the advertiser, not the platform. For luxury media teams running DTC or clienteling programmes inside Adobe's stack, this is a direct path to optimising programmatic spend on the client signals that actually matter.",
-      "source": "AdExchanger",
-      "date": "8 July 2026",
-      "url": "https://www.adexchanger.com/marketers/adobe-advertising-just-launched-its-own-custom-algorithms-product/"
-    },
-    {
-      "category": "MAISONS & BRANDS",
-      "score": 4,
-      "headline": "L'Or\u00e9al Locks In Gucci Beauty for 50 Years \u2014 Kering's Data and Distribution Now Flow Through the World's Largest Beauty Group",
-      "summary": "L'Or\u00e9al has signed a 50-year exclusive worldwide licence with Kering to develop and distribute fragrances and beauty products for the Gucci brand, effective July 1, 2027 \u2014 one year ahead of Coty's original expiry. The deal, which follows L'Or\u00e9al's \u20ac4bn acquisition of Kering Beaut\u00e9, hands Gucci's beauty data infrastructure and consumer touchpoints to a group with 8,000 digital, tech and data talents and a stated AI partnership with NVIDIA and OpenAI. This is a media and data event as much as a commercial one: Gucci Beauty's omnichannel audience now enters L'Or\u00e9al's AI-driven personalisation ecosystem.",
-      "source": "L'Or\u00e9al",
-      "date": "7 July 2026",
-      "url": "https://www.loreal.com/en/press-release/group/l-oreal-enters-a-50-year-exclusive-worldwide-beauty-licence-with-kering--for-the-gucci-brand/"
+      "headline": "StackAdapt Launches In-Platform Economic Impact Measurement Tied to $4T+ in Consumer Spend Data",
+      "summary": "StackAdapt's new Economic Impact Report \u2014 launched 30 July via BusinessWire \u2014 connects live media exposure directly to transaction data from 150M+ credit and debit cards, ending the post-campaign wait for ROI proof. For luxury performance teams, the structural shift is decisive: proxy metrics like clicks and engagement are being displaced by real spending outcomes, in-flight. The tool is initially built for travel and location-based advertisers, but the measurement architecture is a direct blueprint for luxury retail media.",
+      "source": "Business Wire",
+      "date": "30 July 2026",
+      "url": "https://finance.yahoo.com/media-advertising/articles/stackadapt-introduces-platform-economic-impact-150000090.html"
     },
     {
       "category": "MEDIA & PLATFORMS",
-      "score": 4,
-      "headline": "Smartly Synapse, Citelens and Attentive Brand Voice 2.0 Signal the AI Ad Stack Is Becoming Self-Orchestrating",
-      "summary": "The latest MarTech weekly confirms the AI advertising stack is consolidating around orchestration and GEO: Smartly launched Synapse, coordinating specialist agents across media planning, creative and budget allocation from a single architecture; Citelens debuted brand citation tracking across ChatGPT, Claude and Perplexity; and Attentive's Brand Voice 2.0 enforces tone consistency across SMS, email and RCS at scale. For luxury performance teams, the signal is unambiguous \u2014 the campaign management layer is being automated, and brand consistency across AI surfaces is now an operational requirement, not a branding aspiration.",
-      "source": "MarTech",
-      "date": "9 July 2026",
-      "url": "https://martech.org/the-latest-ai-powered-martech-news-and-releases/"
-    },
-    {
-      "category": "POLICY & RISK",
-      "score": 4,
-      "headline": "IAS CEO Lidiane Jones Faces the Defining Question of Brand Safety in 2026: What Does 'Media Quality' Mean When AI Makes the Content and Places the Ads?",
-      "summary": "Integral Ad Science's new CEO Lidiane Jones takes the helm as AI-generated content and AI-placed ads render traditional brand safety categories structurally inadequate. AdExchanger frames the challenge starkly: the tools built to protect brands from unsafe adjacencies were designed for human-curated media, not LLM-generated pages. For luxury media executives, this is a live risk: premium brand perception depends on contextual control that the current ad-tech stack was not built to guarantee at AI scale.",
-      "source": "AdExchanger",
-      "date": "9 July 2026",
-      "url": "https://www.adexchanger.com/latest/"
+      "score": 5,
+      "headline": "#legend Goes AI-First Across Editorial, Commerce and Audience \u2014 A Luxury Media Bellwether for Asia",
+      "summary": "Asia's leading luxury lifestyle platform #legend \u2014 chaired by Li & Fung veteran Bruce Rockowitz \u2014 announced a full AI-first transformation on 29 July, embedding AI across editorial workflows, content discovery, and brand analytics. The move is a direct response to audiences increasingly finding luxury content via conversational AI rather than conventional search, with the platform restructuring its publishing infrastructure for AI answer surfaces. For luxury media buyers, this signals the accelerating obsolescence of standard SEO-first media strategies in the Asia-Pacific affluent segment.",
+      "source": "Macau Business (via Media OutReach Newswire)",
+      "date": "29 July 2026",
+      "url": "https://macaubusiness.com/bruce-rockowitz-legend-unveils-ai-first-strategy-to-redefine-luxury-media/"
     },
     {
       "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "Salesforce Agentforce Commerce Goes GA with ChatGPT in July 2026 \u2014 AI-Referred Traffic Now Converts at 8x the Rate of Social",
-      "summary": "Salesforce's Agentforce Commerce has reached general availability with native ChatGPT integration this month, with Google's AI Mode and Gemini app integrations arriving this summer \u2014 enabling brands to sell directly inside AI conversations while remaining merchant of record. Salesforce data shows AI-referred traffic converting at eight times the rate of social, and retailers running their own shopper agents grew sales 59% faster than those on the sidelines. Luxury brands that have not yet structured product catalogues for agentic protocols face an accelerating conversion penalty.",
-      "source": "Salesforce",
-      "date": "9 July 2026",
-      "url": "https://www.salesforce.com/news/stories/agentforce-commerce-announcement/"
+      "headline": "WPP Media Partners with Agentic AI Startup Kily to Automate Commerce Execution Across Marketplaces",
+      "summary": "Announced 28 July, WPP Media's tie-up with Kily integrates autonomous AI agents \u2014 capable of independently managing listings, pricing, and ad spend \u2014 into WPP Open, the group's agentic marketing platform. The partnership signals a definitive industry shift: the world's largest media network is now deploying AI that doesn't just recommend actions but executes them across commerce platforms with minimal human sign-off. For luxury brands running WPP agency relationships, this raises urgent questions about brand safety guardrails when autonomous agents control pricing and inventory signals.",
+      "source": "Storyboard18",
+      "date": "28 July 2026",
+      "url": "https://www.storyboard18.com/brand-makers/-105790.htm"
+    },
+    {
+      "category": "MEDIA & PLATFORMS",
+      "score": 5,
+      "headline": "OpenAI Opens ChatGPT Ads to All Advertisers \u2014 Luxury Brands Now Have a Conversational Intent Channel",
+      "summary": "OpenAI's 'Advertise in ChatGPT' self-serve portal went fully public on 22 July, with sponsored blocks appearing below responses for Free and Go plan users, targeting by conversational context rather than cookies. The $50,000+ spend floor has been eliminated, and early retail case studies (Best Buy, Lowe's) are now live \u2014 the channel is real and scaling. For luxury CMOs, the strategic imperative is immediate: ChatGPT reaches consumers at the highest-intent moment \u2014 active decision-making \u2014 and brands without a presence risk being invisible precisely when affluent consumers are evaluating purchase options.",
+      "source": "AI Weekly",
+      "date": "22 July 2026",
+      "url": "https://aiweekly.co/alerts/openai-opens-chatgpt-ads-publicly-with-best-buy-and-lowes"
+    },
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 4,
+      "headline": "Luxury AI Adoption Gap Widens: BCG Finds 57% of Luxury Companies Are Still AI Laggards as Consumers Race Ahead",
+      "summary": "A BCG study reported in WWD finds that 57% of luxury sector companies have minimal AI implementation, even as 87% of luxury consumers across demographics have already adopted generative AI in their daily lives \u2014 a structural misalignment with direct revenue consequences. Bain data cited in the same period shows the sector has shed roughly 70 million active customers since 2022, with AI-powered discovery increasingly shaping where and how top spenders engage with brands. The gap between consumer AI fluency and brand AI readiness is no longer a future risk \u2014 it is the current competitive fault line.",
+      "source": "WWD",
+      "date": "1 July 2026",
+      "url": "https://wwd.com/business-news/business-features/luxury-consumers-prioritize-product-ai-price-value-ratio-1239056055/"
     }
   ],
-  "date_slug": "2026-07-15"
+  "date_slug": "2026-08-04"
 }
