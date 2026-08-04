@@ -1,4 +1,4 @@
-# Isabella's Alerts — Setup Guide
+# Premiere Intelligence Alerts — Setup Guide
 ### From zero to inbox in ~20 minutes
 
 ---
@@ -18,7 +18,7 @@
 
 ## Step 2 — Create your repository (3 min)
 1. Click the **+** icon (top right) → **New repository**
-2. Name it: `isabellas-alerts`
+2. Name it: `Premiere-Intelligence-alerts`
 3. Set to **Public**
 4. Click **Create repository**
 5. Upload all 3 files from this folder:
@@ -35,7 +35,7 @@
 2. Under "Source" select **Deploy from a branch**
 3. Branch: **main** / Folder: **/ (root)**
 4. Click **Save**
-5. Your site will be live at: `https://YOUR-USERNAME.github.io/isabellas-alerts`
+5. Your site will be live at: `https://YOUR-USERNAME.github.io/Premiere-Intelligence-alerts`
 
 ---
 
@@ -68,7 +68,7 @@ SENDER_EMAIL = "alerts@yourdomain.com"                 # ← your verified Resen
 
 ## Step 7 — Test it! (1 min)
 1. Go to your repo → **Actions** tab
-2. Click **Isabella's Alerts — Daily Briefing**
+2. Click **Premiere Intelligence Alerts — Daily Briefing**
 3. Click **Run workflow** → **Run workflow**
 4. Watch it run — check your inbox in ~2 minutes ✓
 
