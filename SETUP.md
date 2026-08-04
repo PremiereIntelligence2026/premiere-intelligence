@@ -89,7 +89,9 @@ No action needed — it just works.
 - **API key error?** Make sure you copied the full key (starts with `sk-ant-`)
 - **Resend error?** Make sure your sender domain is verified in Resend dashboard
 
-- ## Maintenance
+---
+
+## Maintenance
 
 ### Update Recipients
 Edit RECIPIENTS in send_briefing.py
