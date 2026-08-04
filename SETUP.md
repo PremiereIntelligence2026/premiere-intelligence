@@ -1,4 +1,4 @@
-# Premiere Intelligence Alerts — Setup Guide
+# Premiere Intelligence — Administrator Guide
 ### From zero to inbox in ~20 minutes
 
 ---
@@ -61,8 +61,9 @@ SENDER_EMAIL = "alerts@yourdomain.com"                 # ← your verified Resen
 
 | Name | Value |
 |------|-------|
-| `ANTHROPIC_API_KEY` | Your key from console.anthropic.com |
-| `RESEND_API_KEY` | Your key from resend.com |
+| `ANTHROPIC_API_KEY` | Your key from console.anthropic.com - For news sorting and picking|
+| `RESEND_API_KEY` | Your key from resend.com - For sending the emails|
+| `OPEN_API_KEY` | Your key from resend.com - For audio generation|
 
 ---
 
@@ -87,3 +88,17 @@ No action needed — it just works.
 - **Email not arriving?** Check Actions tab for error logs
 - **API key error?** Make sure you copied the full key (starts with `sk-ant-`)
 - **Resend error?** Make sure your sender domain is verified in Resend dashboard
+
+- ## Maintenance
+
+### Update Recipients
+Edit RECIPIENTS in send_briefing.py
+
+### Update API Keys
+Settings → Secrets and Variables → Actions
+
+### Monitor Workflow
+Actions → Première Intelligence — Daily Briefing
+
+### GitHub Pages
+Settings → Pages
