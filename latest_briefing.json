@@ -1,52 +1,52 @@
 {
-  "date": "Tuesday, 4 August 2026",
-  "lede": "The week's signal: AI is no longer a luxury experiment \u2014 it's restructuring measurement, media publishing, commerce execution, and the very channels through which luxury brands reach high-value consumers.",
+  "date": "Friday, 7 August 2026",
+  "lede": "The EU AI Act's advertising disclosure rules went live this week, Pinterest's AI-shopping pivot hit $1.18B in quarterly revenue, and the IAB codified AI visibility measurement \u2014 three simultaneous regulatory and platform shifts that will redraw how luxury brands plan, buy, and prove media performance.",
   "stories": [
     {
-      "category": "DATA & PERFORMANCE",
+      "category": "POLICY & RISK",
       "score": 5,
-      "headline": "StackAdapt Launches In-Platform Economic Impact Measurement Tied to $4T+ in Consumer Spend Data",
-      "summary": "StackAdapt's new Economic Impact Report \u2014 launched 30 July via BusinessWire \u2014 connects live media exposure directly to transaction data from 150M+ credit and debit cards, ending the post-campaign wait for ROI proof. For luxury performance teams, the structural shift is decisive: proxy metrics like clicks and engagement are being displaced by real spending outcomes, in-flight. The tool is initially built for travel and location-based advertisers, but the measurement architecture is a direct blueprint for luxury retail media.",
-      "source": "Business Wire",
-      "date": "30 July 2026",
-      "url": "https://finance.yahoo.com/media-advertising/articles/stackadapt-introduces-platform-economic-impact-150000090.html"
+      "headline": "EU AI Act Article 50 Is Now Enforceable \u2014 Every AI-Generated Luxury Campaign Asset Must Be Labelled",
+      "summary": "As of 2 August 2026, the European Commission began enforcing Article 50 of the EU AI Act, requiring brands to disclose when advertising content \u2014 including product shots, campaign imagery, deepfakes, and AI-generated copy \u2014 has been produced or manipulated by AI, with fines reaching \u20ac15 million or 3% of global turnover. The obligations apply extraterritorially: any brand whose AI-generated content reaches EU audiences is in scope, regardless of where it is headquartered. For luxury maisons running AI-assisted visual production across lookbooks, e-commerce, and paid media, this is an immediate workflow and compliance overhaul \u2014 not a future planning item.",
+      "source": "European Commission / Davis+Gilbert LLP",
+      "date": "2 August 2026",
+      "url": "https://www.dglaw.com/eu-ai-act-guidance-expands-ai-disclosure-rules-for-advertisers-and-pr-teams/"
     },
     {
       "category": "MEDIA & PLATFORMS",
       "score": 5,
-      "headline": "#legend Goes AI-First Across Editorial, Commerce and Audience \u2014 A Luxury Media Bellwether for Asia",
-      "summary": "Asia's leading luxury lifestyle platform #legend \u2014 chaired by Li & Fung veteran Bruce Rockowitz \u2014 announced a full AI-first transformation on 29 July, embedding AI across editorial workflows, content discovery, and brand analytics. The move is a direct response to audiences increasingly finding luxury content via conversational AI rather than conventional search, with the platform restructuring its publishing infrastructure for AI answer surfaces. For luxury media buyers, this signals the accelerating obsolescence of standard SEO-first media strategies in the Asia-Pacific affluent segment.",
-      "source": "Macau Business (via Media OutReach Newswire)",
-      "date": "29 July 2026",
-      "url": "https://macaubusiness.com/bruce-rockowitz-legend-unveils-ai-first-strategy-to-redefine-luxury-media/"
+      "headline": "Pinterest Posts $1.18B Q2 Revenue and 640M MAUs, Calls AI a 'Clear Accelerant' for Its Luxury Shopping Pitch",
+      "summary": "Pinterest beat analyst estimates on both revenue (+18% YoY to $1.18B) and adjusted EPS on 4 August, with CEO Bill Ready declaring AI 'at the heart of our momentum' \u2014 trained on the platform's proprietary Taste Graph of human-curated style and shopping intent. With 640 million monthly active users and Performance+ AI ad tools now accounting for roughly 30% of lower-funnel revenue, Pinterest is making a credible bid to become luxury's primary upper-funnel-to-conversion channel as traditional search fragments. The stock's post-earnings dip on guidance signals investor caution about GPU investment costs, but the platform's luxury-skewed user base and shoppable discovery model remain structurally compelling for maisons.",
+      "source": "CNBC / BusinessWire",
+      "date": "4 August 2026",
+      "url": "https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html"
+    },
+    {
+      "category": "DATA & PERFORMANCE",
+      "score": 4,
+      "headline": "IAB Codifies AI Visibility Measurement Standards \u2014 A New Baseline for Luxury Media Buyers",
+      "summary": "On 3 August 2026, the IAB set formal AI visibility measurement standards, establishing an industry baseline for how brands and agencies track ad performance inside AI-native environments including AI Overviews, ChatGPT, and conversational discovery surfaces. For luxury media teams still calibrating incrementality models built on traditional search and social, this is the first standardised framework for measuring whether premium budgets are actually reaching consumers inside AI-driven discovery journeys. The standards arrive as agentic AI shopping tools accelerate, making audience interception increasingly probabilistic rather than deterministic.",
+      "source": "Agile Brand Guide",
+      "date": "3 August 2026",
+      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-3-2026/"
     },
     {
       "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "WPP Media Partners with Agentic AI Startup Kily to Automate Commerce Execution Across Marketplaces",
-      "summary": "Announced 28 July, WPP Media's tie-up with Kily integrates autonomous AI agents \u2014 capable of independently managing listings, pricing, and ad spend \u2014 into WPP Open, the group's agentic marketing platform. The partnership signals a definitive industry shift: the world's largest media network is now deploying AI that doesn't just recommend actions but executes them across commerce platforms with minimal human sign-off. For luxury brands running WPP agency relationships, this raises urgent questions about brand safety guardrails when autonomous agents control pricing and inventory signals.",
-      "source": "Storyboard18",
-      "date": "28 July 2026",
-      "url": "https://www.storyboard18.com/brand-makers/-105790.htm"
+      "headline": "Adweek's 2026 Tech Stack Awards Surface Farfetch's 70% Order Uplift from AI-Augmented Imagery \u2014 A Benchmark Luxury Cannot Ignore",
+      "summary": "Adweek's 2026 Tech Stack Awards, published this week, highlighted that luxury fashion marketplace Farfetch achieved a 70% increase in orders after deploying AI-augmented lifestyle imagery \u2014 a conversion signal that will force every maison reassessing its e-commerce creative strategy to reckon with the ROI of AI visual production at scale. The recognition reflects a broader award thesis: modern advertising demands more creative variants, across more channels, with more personalisation, in less time than human production pipelines allow. For luxury groups still protecting bespoke shoot budgets, Farfetch's data point is the most commercially concrete proof yet that AI-augmented imagery directly moves product.",
+      "source": "Adweek",
+      "date": "4 August 2026",
+      "url": "https://www.adweek.com/brand-marketing/2026-tech-stack-awards-ai-data-marketing-technology/"
     },
     {
       "category": "MEDIA & PLATFORMS",
-      "score": 5,
-      "headline": "OpenAI Opens ChatGPT Ads to All Advertisers \u2014 Luxury Brands Now Have a Conversational Intent Channel",
-      "summary": "OpenAI's 'Advertise in ChatGPT' self-serve portal went fully public on 22 July, with sponsored blocks appearing below responses for Free and Go plan users, targeting by conversational context rather than cookies. The $50,000+ spend floor has been eliminated, and early retail case studies (Best Buy, Lowe's) are now live \u2014 the channel is real and scaling. For luxury CMOs, the strategic imperative is immediate: ChatGPT reaches consumers at the highest-intent moment \u2014 active decision-making \u2014 and brands without a presence risk being invisible precisely when affluent consumers are evaluating purchase options.",
-      "source": "AI Weekly",
-      "date": "22 July 2026",
-      "url": "https://aiweekly.co/alerts/openai-opens-chatgpt-ads-publicly-with-best-buy-and-lowes"
-    },
-    {
-      "category": "MAISONS & BRANDS",
       "score": 4,
-      "headline": "Luxury AI Adoption Gap Widens: BCG Finds 57% of Luxury Companies Are Still AI Laggards as Consumers Race Ahead",
-      "summary": "A BCG study reported in WWD finds that 57% of luxury sector companies have minimal AI implementation, even as 87% of luxury consumers across demographics have already adopted generative AI in their daily lives \u2014 a structural misalignment with direct revenue consequences. Bain data cited in the same period shows the sector has shed roughly 70 million active customers since 2022, with AI-powered discovery increasingly shaping where and how top spenders engage with brands. The gap between consumer AI fluency and brand AI readiness is no longer a future risk \u2014 it is the current competitive fault line.",
-      "source": "WWD",
-      "date": "1 July 2026",
-      "url": "https://wwd.com/business-news/business-features/luxury-consumers-prioritize-product-ai-price-value-ratio-1239056055/"
+      "headline": "Meta's AI Business Agent Moves to Paid Billing This Week \u2014 Luxury Clienteling on WhatsApp Just Got a Price Tag",
+      "summary": "Meta's Business Agent \u2014 which autonomously handles product recommendations, appointment bookings, sales qualification, and transaction completion across WhatsApp, Instagram, and Messenger \u2014 shifted from free to token-based billing at $2.00 per million tokens on 1 August 2026, making it a live commercial decision for any luxury brand that piloted it during the free window. With over one billion active daily business threads across Meta's messaging apps, the agent represents a scalable clienteling layer that luxury houses have historically restricted to human advisors for VIP clients only. The pricing model \u2014 usage-metered rather than flat subscription \u2014 will require media and CRM teams to model conversation volume against conversion value before committing budgets.",
+      "source": "TechTimes",
+      "date": "1 August 2026",
+      "url": "https://www.techtimes.com/articles/320787/20260716/meta-business-agent-billing-starts-aug-1-free-test-window-ends-days.htm"
     }
   ],
-  "date_slug": "2026-08-04"
+  "date_slug": "2026-08-07"
 }
