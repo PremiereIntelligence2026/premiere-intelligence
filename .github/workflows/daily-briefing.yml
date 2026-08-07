@@ -1,6 +1,9 @@
 name: Première Intelligence — Daily Briefing
 
 on:
+  schedule:
+    - cron: '30 11 * * 1-5'
+
   workflow_dispatch:
 
 permissions:
