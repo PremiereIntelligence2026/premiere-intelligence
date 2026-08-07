@@ -1,51 +1,51 @@
 {
   "date": "Friday, 7 August 2026",
-  "lede": "The EU AI Act's advertising disclosure rules went live this week, Pinterest's AI-shopping pivot hit $1.18B in quarterly revenue, and the IAB codified AI visibility measurement \u2014 three simultaneous regulatory and platform shifts that will redraw how luxury brands plan, buy, and prove media performance.",
+  "lede": "Luxury's H1 earnings season closes with a hard-vs-soft divergence verdict, the EU AI Act's content-labelling teeth bite down, and Lyst's first AI-native index reshapes how brand heat is measured \u2014 all in a week that demands both a compliance audit and a data strategy reset.",
   "stories": [
-    {
-      "category": "POLICY & RISK",
-      "score": 5,
-      "headline": "EU AI Act Article 50 Is Now Enforceable \u2014 Every AI-Generated Luxury Campaign Asset Must Be Labelled",
-      "summary": "As of 2 August 2026, the European Commission began enforcing Article 50 of the EU AI Act, requiring brands to disclose when advertising content \u2014 including product shots, campaign imagery, deepfakes, and AI-generated copy \u2014 has been produced or manipulated by AI, with fines reaching \u20ac15 million or 3% of global turnover. The obligations apply extraterritorially: any brand whose AI-generated content reaches EU audiences is in scope, regardless of where it is headquartered. For luxury maisons running AI-assisted visual production across lookbooks, e-commerce, and paid media, this is an immediate workflow and compliance overhaul \u2014 not a future planning item.",
-      "source": "European Commission / Davis+Gilbert LLP",
-      "date": "2 August 2026",
-      "url": "https://www.dglaw.com/eu-ai-act-guidance-expands-ai-disclosure-rules-for-advertisers-and-pr-teams/"
-    },
     {
       "category": "MEDIA & PLATFORMS",
       "score": 5,
-      "headline": "Pinterest Posts $1.18B Q2 Revenue and 640M MAUs, Calls AI a 'Clear Accelerant' for Its Luxury Shopping Pitch",
-      "summary": "Pinterest beat analyst estimates on both revenue (+18% YoY to $1.18B) and adjusted EPS on 4 August, with CEO Bill Ready declaring AI 'at the heart of our momentum' \u2014 trained on the platform's proprietary Taste Graph of human-curated style and shopping intent. With 640 million monthly active users and Performance+ AI ad tools now accounting for roughly 30% of lower-funnel revenue, Pinterest is making a credible bid to become luxury's primary upper-funnel-to-conversion channel as traditional search fragments. The stock's post-earnings dip on guidance signals investor caution about GPU investment costs, but the platform's luxury-skewed user base and shoppable discovery model remain structurally compelling for maisons.",
-      "source": "CNBC / BusinessWire",
-      "date": "4 August 2026",
-      "url": "https://www.cnbc.com/2026/08/04/pinterest-pins-q2-earnings-report-2026.html"
+      "headline": "Lyst Embeds AI Discovery Channels Into Q2 2026 Index \u2014 Chanel Holds No. 1 as Methodology Gets a Machine-Learning Upgrade",
+      "summary": "Lyst published its Q2 2026 Index on August 5, tracking 160 million annual shoppers across searches, sales, social, editorial \u2014 and, for the first time at scale, AI-powered discovery channels. Chanel held the top spot for the second consecutive quarter, driven by Coco Beach and M\u00e9tiers d'Art collections plus a 70% jump in sunglasses demand; Miu Miu climbed to No. 2 on a 30% demand surge. The methodology update is the real signal: brand heat is now measured across LLM recommendation surfaces, meaning luxury houses that aren't optimising for AI citation will begin to disappear from the index.",
+      "source": "FashionUnited",
+      "date": "5 August 2026",
+      "url": "https://fashionunited.uk/news/fashion/chanel-maintains-lead-in-lyst-index-massimo-dutti-is-biggest-climber-of-quarter/2026080589644"
     },
     {
-      "category": "DATA & PERFORMANCE",
-      "score": 4,
-      "headline": "IAB Codifies AI Visibility Measurement Standards \u2014 A New Baseline for Luxury Media Buyers",
-      "summary": "On 3 August 2026, the IAB set formal AI visibility measurement standards, establishing an industry baseline for how brands and agencies track ad performance inside AI-native environments including AI Overviews, ChatGPT, and conversational discovery surfaces. For luxury media teams still calibrating incrementality models built on traditional search and social, this is the first standardised framework for measuring whether premium budgets are actually reaching consumers inside AI-driven discovery journeys. The standards arrive as agentic AI shopping tools accelerate, making audience interception increasingly probabilistic rather than deterministic.",
-      "source": "Agile Brand Guide",
-      "date": "3 August 2026",
-      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-3-2026/"
+      "category": "POLICY & RISK",
+      "score": 5,
+      "headline": "EU AI Act Article 50 Is Live \u2014 Synthetic Content Labelling Enforcement Begins Across All 27 Member States",
+      "summary": "On August 2, 2026, the EU AI Act's transparency obligations under Article 50 became enforceable: any AI-generated or AI-manipulated image, video, audio, or text deployed in the EU must now carry machine-readable synthetic-content markers, with fines of up to \u20ac15M or 3% of global turnover for breaches. High-risk system obligations were deferred to December 2027 via the Digital Omnibus, but the labelling deadline was explicitly left untouched \u2014 meaning every luxury maison running generative AI campaign assets is now in live enforcement territory. The Commission's GPAI supervisory powers also switched on the same day.",
+      "source": "NicFab Blog",
+      "date": "2 August 2026",
+      "url": "https://www.nicfab.eu/en/posts/ai-act-2-august-2026/"
+    },
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 5,
+      "headline": "Luxury's H1 Recovery Has a Value-for-Money Problem \u2014 LVMH, Kering and Herm\u00e8s Return to Growth, But Jewellery Is Carrying Everyone",
+      "summary": "H1 2026 results across the major conglomerates confirmed a structural divergence: LVMH's Watches & Jewellery grew 11% in Q2 while Fashion & Leather only just returned to positive territory at +1% after seven consecutive down quarters; Kering's jewellery grew 18% against a flat fashion division; Richemont's jewellery maisons posted a seventh straight quarter of double-digit growth. Glossy's analysis, drawing on commentary from Bernstein analyst Luca Solca, frames the gap as a value-for-money crisis \u2014 entry-price jewellery now offers a more defensible price-to-quality ratio than handbags whose prices have risen steeply since 2019. Brands that built their P&L on leather goods must now rebuild the product logic that once justified the premium.",
+      "source": "Glossy",
+      "date": "31 July 2026",
+      "url": "https://www.glossy.co/fashion/luxury/luxury-value-for-money-lvmh-kering-hermes/"
     },
     {
       "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "Adweek's 2026 Tech Stack Awards Surface Farfetch's 70% Order Uplift from AI-Augmented Imagery \u2014 A Benchmark Luxury Cannot Ignore",
-      "summary": "Adweek's 2026 Tech Stack Awards, published this week, highlighted that luxury fashion marketplace Farfetch achieved a 70% increase in orders after deploying AI-augmented lifestyle imagery \u2014 a conversion signal that will force every maison reassessing its e-commerce creative strategy to reckon with the ROI of AI visual production at scale. The recognition reflects a broader award thesis: modern advertising demands more creative variants, across more channels, with more personalisation, in less time than human production pipelines allow. For luxury groups still protecting bespoke shoot budgets, Farfetch's data point is the most commercially concrete proof yet that AI-augmented imagery directly moves product.",
-      "source": "Adweek",
-      "date": "4 August 2026",
-      "url": "https://www.adweek.com/brand-marketing/2026-tech-stack-awards-ai-data-marketing-technology/"
+      "headline": "Prada Group Posts 22nd Consecutive Quarter of Organic Growth \u2014 China Recovers, Versace Weighs on Profit",
+      "summary": "Prada Group closed H1 2026 with net revenue of \u20ac3.048 billion, up 16% at constant exchange rates, with organic growth accelerating to 7% in Q2 \u2014 a performance that continues to widen the group's gap with peers. Chinese customers delivered double-digit growth in Q2, with domestic and overseas spend recovering in tandem, while the Prada brand's retail sales grew 6.3% in the quarter on full-price, like-for-like momentum. The drag: Versace, acquired late last year, weighed on group profitability, with net profit falling 15.2% to \u20ac327M as acquisition amortisation and currency effects bit.",
+      "source": "FashionNetwork",
+      "date": "30 July 2026",
+      "url": "https://us.fashionnetwork.com/news/Prada-sees-first-half-revenue-reach-3-05-billion-up-16-at-constant-exchange-rates,1857117.html"
     },
     {
-      "category": "MEDIA & PLATFORMS",
-      "score": 4,
-      "headline": "Meta's AI Business Agent Moves to Paid Billing This Week \u2014 Luxury Clienteling on WhatsApp Just Got a Price Tag",
-      "summary": "Meta's Business Agent \u2014 which autonomously handles product recommendations, appointment bookings, sales qualification, and transaction completion across WhatsApp, Instagram, and Messenger \u2014 shifted from free to token-based billing at $2.00 per million tokens on 1 August 2026, making it a live commercial decision for any luxury brand that piloted it during the free window. With over one billion active daily business threads across Meta's messaging apps, the agent represents a scalable clienteling layer that luxury houses have historically restricted to human advisors for VIP clients only. The pricing model \u2014 usage-metered rather than flat subscription \u2014 will require media and CRM teams to model conversation volume against conversion value before committing budgets.",
-      "source": "TechTimes",
-      "date": "1 August 2026",
-      "url": "https://www.techtimes.com/articles/320787/20260716/meta-business-agent-billing-starts-aug-1-free-test-window-ends-days.htm"
+      "category": "DATA & PERFORMANCE",
+      "score": 3,
+      "headline": "Rokt Launches Brain V4 \u2014 Real-Time AI Decisioning at Checkout Reaches 10 Billion Transactions in 2026",
+      "summary": "Rokt launched Brain V4 on August 4, a reengineered AI core that determines in real time what a customer sees during the Transaction Moment \u2014 the point of purchase completion \u2014 drawing on customer, advertiser, contextual, and transactional data simultaneously, including the option to show nothing at all. The platform is on track to power over 10 billion transactions in 2026 across partners including Macy's, Ulta Beauty, PayPal, and Fanatics. For luxury media buyers, the signal is structural: as agentic AI compresses the top of the funnel, checkout is becoming the last human-controlled interaction \u2014 and the performance layer sitting inside it is now AI-native.",
+      "source": "PR Newswire",
+      "date": "4 August 2026",
+      "url": "https://www.prnewswire.com/news-releases/rokt-introduces-brain-v4-a-new-ai-engine-for-real-time-ecommerce-decisioning-302841896.html"
     }
   ],
   "date_slug": "2026-08-07"
