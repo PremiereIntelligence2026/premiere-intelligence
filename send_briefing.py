@@ -21,7 +21,7 @@ RESEND_API_KEY    = os.environ["RESEND_API_KEY"]
 OPENAI_API_KEY    = os.environ.get("OPENAI_API_KEY", "").strip()
 
 HISTORY_FILE = "sent_history.json"
-HISTORY_DAYS = 14
+HISTORY_DAYS = 5
 
 # ── HISTORY ──────────────────────────────────────────────────────────────────
 def load_history() -> list:
