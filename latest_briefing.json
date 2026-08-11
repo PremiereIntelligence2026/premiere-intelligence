@@ -1,52 +1,52 @@
 {
-  "date": "Monday, 10 August 2026",
-  "lede": "Meta's AI infrastructure pivot dominates the week \u2014 new tools, new cloud ambitions, and a police probe expose the risks of the platform on which luxury built its DTC future.",
+  "date": "Tuesday, 11 August 2026",
+  "lede": "ChatGPT Ads goes full performance channel as OpenAI ships carousels, oCPC and conversion tracking \u2014 while luxury's own Brunello Cucinelli and Kering signal two very different AI bets on commerce and brand recovery.",
   "stories": [
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "Google AI Max to Auto-Upgrade All ACA and Broad-Match Search Campaigns on 1 September \u2014 Luxury Advertisers Have 3 Weeks",
-      "summary": "Google sent formal notification emails to advertisers on 5 August confirming that all Search campaigns using Automatically Created Assets or campaign-level broad match will be force-migrated to AI Max on 1 September 2026, with no opt-out. The upgrade enables AI-generated headlines, descriptions, and expanded URL targeting \u2014 rewriting ad copy and landing-page decisions without human sign-off. For luxury houses, whose brand voice and negative keyword architecture are hard-won, this is the highest-urgency campaign governance event of Q3.",
-      "source": "Demurdesign / AI News Recap",
+      "headline": "ChatGPT Ads Rolls Out oCPC Bidding, Multi-Product Carousels and Automatic Advanced Matching \u2014 A New Performance Tier Opens for Luxury E-Commerce",
+      "summary": "OpenAI shipped its most significant ChatGPT Ads product batch yet this week: conversion-optimised CPC campaigns in beta for product feed advertisers, a live multi-product carousel format allowing multiple SKUs per ad unit, dynamic URL parameters for clean attribution, and automatic advanced matching rolling out to all existing web pixels by 17 August. New third-party integrations with Triple Whale and Hightouch close the attribution loop luxury performance teams have been waiting for. ChatGPT Ads is no longer an awareness experiment \u2014 it is now a measurable, optimisation-capable channel that belongs on the luxury media plan.",
+      "source": "Search Engine Land",
       "date": "7 August 2026",
-      "url": "https://demurdesign.com/ai-news-recap-august-7-2026/"
+      "url": "https://searchengineland.com/chatgpt-ads-rolls-out-ocpc-campaigns-aam-and-product-carousels-484494"
     },
     {
-      "category": "MEDIA & PLATFORMS",
+      "category": "COMMERCE & RETAIL",
       "score": 5,
-      "headline": "Meta Formalises Meta Compute Cloud Business \u2014 Its $145B AI Infrastructure Is Now an Enterprise Revenue Play",
-      "summary": "MarketScale confirmed on 8 August that Meta is forming a dedicated cloud infrastructure business, Meta Compute, to sell excess AI compute capacity and hosted models to enterprise clients \u2014 putting it in direct competition with AWS, Azure, and Google Cloud. Meta's advertising business has absorbed all AI capex returns to date, but Meta Compute opens a second revenue channel from the same physical infrastructure. For luxury groups running brand and clienteling workloads on Meta's social stack, the shift signals a platform maturing into a full enterprise vendor \u2014 with the pricing leverage, SLA expectations, and procurement politics that entails.",
-      "source": "MarketScale",
-      "date": "8 August 2026",
-      "url": "https://www.marketscale.com/industries/software-and-technology/meta-is-building-a-cloud-business-to-sell-ai-compute-putting-pressure-on-aws-azure-and-google-cloud"
+      "headline": "Salesforce Backs Brunello Cucinelli's AI Commerce Platform Callimacus \u2014 The 'Pageless' Storefront Goes Enterprise",
+      "summary": "Salesforce has taken a strategic stake in Callimacus, the agentic AI platform built by Brunello Cucinelli's Solomei AI research centre, to accelerate its deployment across Europe and North America. Callimacus replaces traditional website navigation with an orchestra of AI agents that composes a personalised, pageless digital experience for each visitor in real time \u2014 early results from Cucinelli's own site showed doubled time-on-site and higher conversion rates, prompting interest from 40+ consumer-goods companies outside luxury. The deal, backed by Cucinelli, Salesforce's Marc Benioff and the Cucinelli family holding company, is the clearest proof yet that luxury's AI commerce experiments are ready for enterprise scale.",
+      "source": "Digital Commerce 360",
+      "date": "31 July 2026",
+      "url": "https://www.digitalcommerce360.com/2026/07/31/salesforce-agentic-ai-brunello-cucinelli-callimacus/"
+    },
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 4,
+      "headline": "Kering Returns to Comparable Growth in Q2 After 12 Consecutive Quarters of Decline \u2014 AI-Enabled Operations Are Central to the Recovery Plan",
+      "summary": "Kering posted Q2 2026 revenue of \u20ac3.65 billion, up 2% comparable \u2014 snapping a streak of 12 consecutive quarterly declines \u2014 as Gucci retail improved seven points sequentially and jewellery surged 18%. CEO Luca de Meo confirmed that 'a deeper push into AI-enabled operations' is a core pillar of the Rinascimento transformation plan, alongside a group-wide shared platform designed to help houses move faster on data, inventory and clienteling. With 84 net store closures in H1 and margins improving to 12.8%, Kering is rebuilding on a leaner, technology-reinforced base.",
+      "source": "The Impression",
+      "date": "28 July 2026",
+      "url": "https://theimpression.com/kering-returns-to-growth-in-q2/"
     },
     {
       "category": "DATA & PERFORMANCE",
       "score": 4,
-      "headline": "Meta Launches Muse Code \u2014 An AI Coding Agent Built to Undercut Anthropic and OpenAI at Enterprise Scale",
-      "summary": "Meta launched Muse Code on 5 August, a terminal-based AI coding agent running on its new Muse Spark 1.2 model and priced aggressively to undercut Claude Code and OpenAI Codex by an order of magnitude on its contributor tier. The agent uses parallel sub-agents in isolated environments to handle large codebases \u2014 a capability directly relevant to luxury tech teams maintaining complex e-commerce, clienteling, and data platform stacks. With 7,000 internal Meta engineers already using it weekly and zero-data-retention options available for enterprise clients, this is the first serious third-party entrant in the AI coding market luxury CTOs should evaluate.",
-      "source": "TechCrunch",
-      "date": "5 August 2026",
-      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/"
+      "headline": "Google's Generative AI Performance Reports in Search Console Are Rolling Out Globally \u2014 Luxury Brands Can Now Measure AI Overview Impressions for the First Time",
+      "summary": "Google's dedicated Generative AI performance reports \u2014 launched in June and now in phased global rollout \u2014 give site owners their first isolated view of impressions inside AI Overviews, AI Mode and generative Discover features, completely separate from standard organic data. For luxury brands whose editorial content and product pages are routinely surfaced in AI-generated summaries, this is the first time citation volume can be tracked as a standalone KPI, independent of click-through rates that AI surfaces do not yet report. The strategic implication is immediate: brand authority in AI search is now measurable, and optimising for it is no longer guesswork.",
+      "source": "Google Search Central Blog",
+      "date": "3 June 2026",
+      "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
     },
     {
-      "category": "DATA & PERFORMANCE",
+      "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "PubMatic Embeds Five-Step Agentic Guardrail Architecture Into AgenticOS \u2014 A New Governance Standard for Autonomous Luxury Media Buying",
-      "summary": "On 5 August, PubMatic launched a five-step guardrail and governance architecture embedded at the point of campaign execution inside its AgenticOS platform, designed to govern autonomous advertising decisions without human intervention at each step. The framework addresses the single biggest objection luxury media teams have raised to agentic buying: the inability to enforce brand-safety, placement, and inventory controls when AI agents execute campaigns at speed. As agentic ad buying moves from pilot to production \u2014 five of six top IAB buyer priorities in 2026 are AI-driven \u2014 PubMatic's architecture sets a governance benchmark the industry will now measure others against.",
-      "source": "The Agile Brand Guide",
-      "date": "7 August 2026",
-      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-7-2026/"
-    },
-    {
-      "category": "POLICY & RISK",
-      "score": 5,
-      "headline": "Police Scotland Investigates TikToker for Covert Filming With Meta Ray-Ban Smart Glasses \u2014 Luxury Boutiques Are the Next Frontier",
-      "summary": "Police Scotland confirmed it is reviewing videos posted by TikToker Scott Margerison, who used Meta Ray-Ban smart glasses to secretly film hundreds of interactions during a road trip through Scotland \u2014 including confrontations inside shops \u2014 sparking a broader clampdown by Instagram, which has now banned videos showing harassment filmed through the device. The case is the highest-profile enforcement test yet of a hardware-enabled surveillance format that Business of Fashion flagged in May as a direct reputational threat to ultra-luxury boutiques, from Gucci to Patek Philippe. With EU AI Act transparency obligations now live and the smart-glasses content format accelerating, luxury houses need an immediate protocol for detecting, managing, and legally challenging covert in-store recordings.",
-      "source": "PetaPixel",
-      "date": "3 August 2026",
-      "url": "https://petapixel.com/2026/08/03/police-investigate-tiktoker-accused-of-secretly-filming-strangers-with-meta-smart-glasses/"
+      "headline": "Salesforce Expands Agentforce with AI Shopping Agents \u2014 Luxury Retailers Using Salesforce Commerce Cloud Are Next in Line",
+      "summary": "Salesforce expanded its Agentforce platform on 23 July with dedicated AI shopping agents capable of handling end-to-end purchase journeys \u2014 product discovery, comparison, cart management and post-purchase service \u2014 with no human in the loop. With 78 of North America's Top 2000 online retailers running on Salesforce, and the Callimacus partnership already demonstrating luxury appetite for agentic commerce, the upgrade puts autonomous AI clienteling within direct reach of fashion and accessories brands on the platform. For luxury houses weighing the shift from advisor-led to agent-mediated discovery, this marks the moment the infrastructure caught up with the ambition.",
+      "source": "Trend Hunter / Salesforce",
+      "date": "23 July 2026",
+      "url": "https://www.trendhunter.com/trends/ai-driven-commerce-platform"
     }
   ],
-  "date_slug": "2026-08-10"
+  "date_slug": "2026-08-11"
 }
