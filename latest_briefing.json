@@ -1,52 +1,52 @@
 {
-  "date": "Tuesday, 11 August 2026",
-  "lede": "ChatGPT Ads goes full performance channel as OpenAI ships carousels, oCPC and conversion tracking \u2014 while luxury's own Brunello Cucinelli and Kering signal two very different AI bets on commerce and brand recovery.",
+  "date": "Wednesday, 12 August 2026",
+  "lede": "Meta's AI advertising stack undergoes its most sweeping August overhaul yet \u2014 while performance marketing inches toward full autonomy and luxury's media measurement gap widens across 200+ fragmented retail networks.",
   "stories": [
+    {
+      "category": "MEDIA & PLATFORMS",
+      "score": 5,
+      "headline": "Meta's August 2026 AI Ads Overhaul: MCP Server, API v26.0, AI Text Rewrites in Images \u2014 and a Full-Screen Video Pivot That Reshuffles Luxury Placements",
+      "summary": "Meta shipped its most consequential month of ad-platform changes in 2026: an official Ads MCP Server enabling AI agents to manage campaigns from third-party tools, Marketing API v26.0 with hard deprecation deadlines, AI that rewrites copy inside existing ad images, and a Facebook app test that demotes the Feed to a tab in favour of full-screen video. For luxury media buyers, the placement-mix shift toward vertical 9:16 inventory \u2014 if the video-first test wins globally \u2014 materially changes CPM curves and creative specifications for Q4.",
+      "source": "AdMake AI",
+      "date": "7 August 2026",
+      "url": "https://admakeai.com/blog/meta-ads-updates-august-2026"
+    },
+    {
+      "category": "DATA & PERFORMANCE",
+      "score": 4,
+      "headline": "GIGR Launches Playad Autopilot \u2014 A Multi-Agent AI System That Cut One Customer's Weekly Marketing Ops From 40 Hours to One",
+      "summary": "GIGR's Playad Autopilot, released globally on 5 August, unifies competitive analysis, hypothesis generation, creative production across image, video, interactive and UGC formats, campaign setup and optimisation into a single agentic workflow \u2014 surpassing 6,000 accounts in soft launch. One early adopter reportedly reduced weekly marketing operations from 20\u201340 hours to roughly one hour, with campaign performance improving approximately 1.5x. For luxury performance teams managing multi-maison creative pipelines, the signal is structural: agentic end-to-end automation is no longer experimental.",
+      "source": "Agile Brand Guide",
+      "date": "6 August 2026",
+      "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-6-2026/"
+    },
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "ChatGPT Ads Rolls Out oCPC Bidding, Multi-Product Carousels and Automatic Advanced Matching \u2014 A New Performance Tier Opens for Luxury E-Commerce",
-      "summary": "OpenAI shipped its most significant ChatGPT Ads product batch yet this week: conversion-optimised CPC campaigns in beta for product feed advertisers, a live multi-product carousel format allowing multiple SKUs per ad unit, dynamic URL parameters for clean attribution, and automatic advanced matching rolling out to all existing web pixels by 17 August. New third-party integrations with Triple Whale and Hightouch close the attribution loop luxury performance teams have been waiting for. ChatGPT Ads is no longer an awareness experiment \u2014 it is now a measurable, optimisation-capable channel that belongs on the luxury media plan.",
-      "source": "Search Engine Land",
-      "date": "7 August 2026",
-      "url": "https://searchengineland.com/chatgpt-ads-rolls-out-ocpc-campaigns-aam-and-product-carousels-484494"
+      "headline": "Retail Media's 200-Network Measurement Disaster Is Now a Boardroom Problem \u2014 And Luxury Is Exposed",
+      "summary": "With more than 200 retail media networks now live, each running proprietary metrics, attribution windows and ROAS definitions, Digiday reports that agency measurement is being held together with 'gum and duct tape' \u2014 a patchwork of dashboards that leaves even sophisticated media buyers unable to give clients a coherent view of performance. Luxury conglomerates operating across fragmented prestige retail environments \u2014 from Sephora to Mytheresa to department store partners \u2014 face acute exposure, with the IAB-MRC retail media guidelines from February still largely unimplemented across the ecosystem.",
+      "source": "Digiday",
+      "date": "5 August 2026",
+      "url": "https://digiday.com/marketing/heres-everything-retail-media-network-experts-are-asking-for-this-holiday-season/"
     },
     {
       "category": "COMMERCE & RETAIL",
-      "score": 5,
-      "headline": "Salesforce Backs Brunello Cucinelli's AI Commerce Platform Callimacus \u2014 The 'Pageless' Storefront Goes Enterprise",
-      "summary": "Salesforce has taken a strategic stake in Callimacus, the agentic AI platform built by Brunello Cucinelli's Solomei AI research centre, to accelerate its deployment across Europe and North America. Callimacus replaces traditional website navigation with an orchestra of AI agents that composes a personalised, pageless digital experience for each visitor in real time \u2014 early results from Cucinelli's own site showed doubled time-on-site and higher conversion rates, prompting interest from 40+ consumer-goods companies outside luxury. The deal, backed by Cucinelli, Salesforce's Marc Benioff and the Cucinelli family holding company, is the clearest proof yet that luxury's AI commerce experiments are ready for enterprise scale.",
-      "source": "Digital Commerce 360",
-      "date": "31 July 2026",
-      "url": "https://www.digitalcommerce360.com/2026/07/31/salesforce-agentic-ai-brunello-cucinelli-callimacus/"
+      "score": 4,
+      "headline": "Meta Rolls Out AI Virtual Try-On for Fashion Brands and Persona-Based Image Generation Inside Advantage+",
+      "summary": "Meta's August ad stack update added an in-app virtual try-on feature for fashion brands alongside persona-based image generation in Advantage+ campaigns, AI-generated voiceovers and translation for ads, and a new 'AI Sticker CTA' for Facebook Reels \u2014 with Reels trending ads now available for Fashion Week content lineups. With more than 8 million advertisers already using Meta's AI creative tools, the virtual try-on feature in particular represents a direct on-platform commerce play that could shift luxury discovery spend from editorial to conversion-optimised Meta placements.",
+      "source": "SocialBee",
+      "date": "8 August 2026",
+      "url": "https://socialbee.com/blog/facebook-updates/"
     },
     {
       "category": "MAISONS & BRANDS",
       "score": 4,
-      "headline": "Kering Returns to Comparable Growth in Q2 After 12 Consecutive Quarters of Decline \u2014 AI-Enabled Operations Are Central to the Recovery Plan",
-      "summary": "Kering posted Q2 2026 revenue of \u20ac3.65 billion, up 2% comparable \u2014 snapping a streak of 12 consecutive quarterly declines \u2014 as Gucci retail improved seven points sequentially and jewellery surged 18%. CEO Luca de Meo confirmed that 'a deeper push into AI-enabled operations' is a core pillar of the Rinascimento transformation plan, alongside a group-wide shared platform designed to help houses move faster on data, inventory and clienteling. With 84 net store closures in H1 and margins improving to 12.8%, Kering is rebuilding on a leaner, technology-reinforced base.",
-      "source": "The Impression",
-      "date": "28 July 2026",
-      "url": "https://theimpression.com/kering-returns-to-growth-in-q2/"
-    },
-    {
-      "category": "DATA & PERFORMANCE",
-      "score": 4,
-      "headline": "Google's Generative AI Performance Reports in Search Console Are Rolling Out Globally \u2014 Luxury Brands Can Now Measure AI Overview Impressions for the First Time",
-      "summary": "Google's dedicated Generative AI performance reports \u2014 launched in June and now in phased global rollout \u2014 give site owners their first isolated view of impressions inside AI Overviews, AI Mode and generative Discover features, completely separate from standard organic data. For luxury brands whose editorial content and product pages are routinely surfaced in AI-generated summaries, this is the first time citation volume can be tracked as a standalone KPI, independent of click-through rates that AI surfaces do not yet report. The strategic implication is immediate: brand authority in AI search is now measurable, and optimising for it is no longer guesswork.",
-      "source": "Google Search Central Blog",
-      "date": "3 June 2026",
-      "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports"
-    },
-    {
-      "category": "COMMERCE & RETAIL",
-      "score": 4,
-      "headline": "Salesforce Expands Agentforce with AI Shopping Agents \u2014 Luxury Retailers Using Salesforce Commerce Cloud Are Next in Line",
-      "summary": "Salesforce expanded its Agentforce platform on 23 July with dedicated AI shopping agents capable of handling end-to-end purchase journeys \u2014 product discovery, comparison, cart management and post-purchase service \u2014 with no human in the loop. With 78 of North America's Top 2000 online retailers running on Salesforce, and the Callimacus partnership already demonstrating luxury appetite for agentic commerce, the upgrade puts autonomous AI clienteling within direct reach of fashion and accessories brands on the platform. For luxury houses weighing the shift from advisor-led to agent-mediated discovery, this marks the moment the infrastructure caught up with the ambition.",
-      "source": "Trend Hunter / Salesforce",
-      "date": "23 July 2026",
-      "url": "https://www.trendhunter.com/trends/ai-driven-commerce-platform"
+      "headline": "Beauty and Luxury Brand Equity Is Now 'Formed and Decided' Inside Third-Party Retail Environments \u2014 Not Owned Channels",
+      "summary": "A new WWD analysis of digital retail transformation concludes that the point of luxury brand expression is no longer owned \u2014 it is distributed across third-party retail environments where attention windows are 'measured in seconds'. The report identifies content distribution, optimisation and performance insight as the three capabilities luxury brands must now build into their retail infrastructure to control how they appear across the increasingly complex landscape of multi-brand online retail. For LVMH and Kering maisons relying on wholesale partners and marketplaces, the implication is a fundamental rethink of where brand equity is actually being built.",
+      "source": "WWD",
+      "date": "5 August 2026",
+      "url": "https://wwd.com/business-news/business-features/beauty-luxury-digital-retail-transformation-1238946865/"
     }
   ],
-  "date_slug": "2026-08-11"
+  "date_slug": "2026-08-12"
 }
