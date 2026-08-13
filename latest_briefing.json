@@ -1,51 +1,51 @@
 {
   "date": "Thursday, 13 August 2026",
-  "lede": "From Farfetch's 70% AI-imagery order lift to Google's organic traffic collapsing by a third, this week's signals confirm that the infrastructure of luxury discovery, media buying, and brand visibility is being rebuilt around AI \u2014 fast.",
+  "lede": "AI is rewriting the rules of retail intelligence, agent-to-agent advertising, and luxury's ownership map simultaneously \u2014 forcing media, data, and brand executives to rethink every assumption about discovery, monetisation, and succession.",
   "stories": [
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "Adweek's 2026 Tech Stack Awards Crown AI-Unified Platforms \u2014 Farfetch's 70% Order Lift From AI Imagery Sets the Luxury Benchmark",
-      "summary": "Adweek's August 4 Tech Stack Awards \u2014 published and circulating this week \u2014 named StackAdapt (CTV/OTT), Attentive (Agentic AI), and TripleLift (Sell-Side Programmatic) as category winners, with the editorial citing Farfetch's 70% increase in orders after deploying AI-augmented lifestyle imagery as the standout luxury proof-point. The awards collectively signal that the winning media stack in 2026 is built on unified AI orchestration across CTV, programmatic, and omnichannel identity \u2014 not siloed point solutions. For luxury media executives still running channel-by-channel buys, this is the clearest industry benchmark yet for where budget and tech investment must consolidate.",
-      "source": "Adweek",
-      "date": "4 August 2026",
-      "url": "https://www.adweek.com/brand-marketing/2026-tech-stack-awards-ai-data-marketing-technology/"
+      "headline": "EDITED Fires Its Retail Dataset Directly Into Claude \u2014 90,000 Brands, 5 Billion SKUs, Zero Tab-Switching",
+      "summary": "London-based retail intelligence platform EDITED has launched EDITED MCP, powered by Anthropic's Model Context Protocol, piping the world's largest aggregated retail dataset \u2014 spanning 90,000 brands and over five billion SKUs across apparel, beauty and home \u2014 natively into Claude Code, Claude Desktop, and custom-built AI agents. For luxury merchandising and performance teams, this collapses the gap between market intelligence and AI-driven decision-making: pricing, assortment, and trend data become live context inside the same workspace where agents act. The move signals a decisive shift from retail analytics as a dashboard to retail analytics as an always-on agent substrate.",
+      "source": "WWD / BusinessWire",
+      "date": "12 August 2026",
+      "url": "https://wwd.com/sourcing-journal/industry-news/edited-artificial-intelligence-anthropic-claude-mcp-1239122835/"
     },
     {
-      "category": "MEDIA & PLATFORMS",
+      "category": "POLICY & RISK",
       "score": 5,
-      "headline": "Google Organic Search Traffic to Publishers Is Down 33% Globally \u2014 Luxury Brands Lose a Third of Their Earned Discovery Overnight",
-      "summary": "The Reuters Institute's 2026 Digital News Report, published June 16 and generating significant industry reaction this week, contains a landmark data point: Google organic search traffic to over 2,500 sites fell 33% globally between November 2024 and November 2025, and 38% in the United States, driven by AI Overviews and AI Mode absorbing intent without click-throughs. Publishers expect search referral traffic to nearly halve \u2014 down 43% \u2014 over the next three years. For luxury brands whose owned editorial and product discovery rely on organic search, this is an existential shift in how AI-mediated discovery now gatekeeps brand narratives, making AI visibility strategy and structured content a boardroom priority.",
-      "source": "Reuters Institute for the Study of Journalism",
-      "date": "16 June 2026",
-      "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary"
+      "headline": "Perplexity Blocks Time's AI Agent Ads and Threatens Publishers With Trust Score Penalties",
+      "summary": "Perplexity has blocked all markdown advertising embedded by Time into its pages \u2014 ads formatted as FAQ content by ad-tech firm Mobian and served invisibly to AI crawlers rather than human readers \u2014 calling the practice \"deceptive\" regardless of disclosure labels. In an emailed statement to Digiday, Perplexity warned that publishers deploying such markdown ads risk a reputational downgrade in its proprietary search index, including a direct hit to their trust score. The standoff crystallises a coming war between publishers monetising AI agent traffic and AI platforms that control which signals their models will and will not ingest \u2014 a battleground with direct implications for how luxury brands manage their content's discoverability.",
+      "source": "Digiday",
+      "date": "11 August 2026",
+      "url": "https://digiday.com/media/perplexity-blocks-times-ads-served-to-ai-agents-calling-them-deceptive/"
     },
     {
       "category": "COMMERCE & RETAIL",
-      "score": 5,
-      "headline": "Brunello Cucinelli's Callimacus Is Running in Production on Salesforce Agentic AI \u2014 Enterprise Luxury Just Crossed the Pilot-to-Infrastructure Line",
-      "summary": "MarketScale reported on August 10 that Brunello Cucinelli's Callimacus system \u2014 built on Salesforce's agentic platform \u2014 is now running live in production, autonomously orchestrating multi-step retail workflows without human intervention at each stage. This is not a pilot: liability for autonomous decisions has been accepted at the business level at one of luxury's most profitable and brand-controlled houses. Taken together with Lululemon's parallel AI stack expansion, the signal is unambiguous \u2014 agentic commerce is crossing from experimentation to operational infrastructure in premium retail, and conglomerate CIOs who have not moved beyond pilot programs are now structurally behind.",
-      "source": "MarketScale",
-      "date": "10 August 2026",
-      "url": "https://www.marketscale.com/industries/retail/agentic-ai-is-reshaping-enterprise-retail-operations-as-salesforce-lululemon-and-brunello-cucinelli-move-from-pilots-to-production"
+      "score": 4,
+      "headline": "Bloomberg: The $289 Billion Resale Wave Is Rewriting Luxury's Economics \u2014 and Vestiaire Is Finally Near Profit",
+      "summary": "Bloomberg's Felix Salmon makes the case that the $289 billion and growing global resale market is no longer a fringe corrective to the primary luxury market \u2014 it is structurally reshaping how labels price, produce, and communicate value, with Vestiaire Collective targeting its first-ever annual profit more than 15 years after founding. Platforms including Vinted and The RealReal are scaling AI-powered authentication and personalisation at a pace that incumbent luxury groups cannot easily match internally. For LVMH and Kering, resale is no longer a brand-equity threat to be managed \u2014 it is a demand-side signal set that their data strategies must now ingest.",
+      "source": "Bloomberg",
+      "date": "11 August 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/vestiaire-the-realreal-vinted-vintage-fashion-is-changing-luxury-economics"
     },
     {
       "category": "MAISONS & BRANDS",
       "score": 4,
-      "headline": "LVMH Posts H1 2026 Revenue of \u20ac38.6 Billion With Q2 Accelerating to +3% Organic \u2014 AI in Clienteling and Supply Chain Cited as a Recovery Lever",
-      "summary": "LVMH's official H1 2026 results \u2014 reported July 27 and subject to sustained analyst commentary this week \u2014 show revenue of \u20ac38.6 billion, up 2% organically for the half with Q2 accelerating to 3%, driven by jewellery (Tiffany and Bvlgari up 9%), Sephora (+5%), and a return to positive territory in Fashion & Leather Goods after seven consecutive quarters of decline. Management explicitly cited AI investment in clienteling and supply chain optimisation as a structural contributor to margin defense, maintaining an operating margin of 22.5%. For LVMH Media Data & Performance teams, the signal is clear: AI-enabled operations are now formally part of the turnaround narrative being communicated to investors, not just an internal initiative.",
-      "source": "LVMH (Official Press Release)",
-      "date": "27 July 2026",
-      "url": "https://www.lvmh.com/en/publications/accelerating-growth-in-the-second-quarter---solid-first-half-results"
+      "headline": "Armani Stake Sale Slips: LVMH, L'Or\u00e9al and EssilorLuxottica Face a 2027-Plus Timeline",
+      "summary": "The planned sale of an initial 15% stake in Giorgio Armani \u2014 mandated by the late designer's will with priority rights given to LVMH, L'Or\u00e9al, and EssilorLuxottica \u2014 is unlikely to be completed before the March 2027 deadline, with Corriere della Sera citing board documents showing the process remains at an early stage due to market weakness and transaction complexity. The potential three-way split \u2014 roughly 5% each \u2014 would cement an unprecedented tri-conglomerate governance structure around one of fashion's last great independent houses. For LVMH, any delay prolongs strategic ambiguity over one of the most commercially significant succession decisions in luxury's recent history.",
+      "source": "TheIndustry.fashion",
+      "date": "11 August 2026",
+      "url": "https://www.theindustry.fashion/armani-stake-sale-delay-succession-2027/"
     },
     {
       "category": "CREATIVE & CAMPAIGNS",
-      "score": 4,
-      "headline": "EU Digital Product Passports Are Now Live Infrastructure for Luxury \u2014 Brands Using Them for Loyalty and Authentication, Not Just Compliance",
-      "summary": "A detailed August 2026 audit of fashion tech confirms the EU Digital Product Passport (DPP) registry \u2014 mandated under ESPR \u2014 is operational as of this month, with luxury houses led by the Aura Blockchain Consortium (LVMH, Prada Group, Cartier/Richemont, OTB) already deploying DPP-linked QR and NFC tags across product lines. The smartest maisons are reframing DPP not as a regulatory checkbox but as an AI-readable data layer for post-purchase loyalty, resale authentication, and carbon storytelling \u2014 generating first-party signals that feed back into clienteling and campaign personalisation. The delegated act for textiles arrives late 2026, making the next 12 months the window to embed DPP into media and CRM architecture before compliance becomes commoditised.",
-      "source": "INT News (Fashion Tech 2026)",
-      "date": "12 August 2026",
-      "url": "https://intnews.it/en/fashion-tech-2026-ai-design-smart-fabrics-dpp/"
+      "score": 3,
+      "headline": "Society Management and Canopy Talent Partner to Route Luxury and Beauty Brands Into College Sports' NIL Economy",
+      "summary": "Society Management \u2014 the agency representing global modelling and creative talent \u2014 has teamed with collegiate sports agency Canopy Talent to give fashion, beauty, and luxury brands structured access to college athletes through NIL (Name, Image, Likeness) activations, citing IAB data projecting U.S. creator advertising spend at $44 billion in 2026 and Goldman Sachs' $480 billion global creator economy forecast for 2027. The deal is designed to move luxury brands beyond one-off social posts into longer-arc, performance-tracked partnerships with women's and Olympic sport athletes \u2014 a segment Canopy argues is systematically undervalued relative to its audience reach. As luxury recalibrates its influencer mix toward credibility and cultural specificity over follower count, the college athlete pipeline offers an authenticity vector that algorithmic channels alone cannot manufacture.",
+      "source": "WWD",
+      "date": "13 August 2026",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/society-management-anopy-talent-college-athletes-1239123276/"
     }
   ],
   "date_slug": "2026-08-13"
