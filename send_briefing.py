@@ -21,7 +21,7 @@ RESEND_API_KEY    = os.environ["RESEND_API_KEY"]
 OPENAI_API_KEY    = os.environ.get("OPENAI_API_KEY", "").strip()
 
 HISTORY_FILE = "sent_history.json"
-HISTORY_DAYS = 5
+HISTORY_DAYS = 14
 
 # ── HISTORY ──────────────────────────────────────────────────────────────────
 def load_history() -> list:
@@ -53,18 +53,52 @@ Your job: surface EXACTLY 5 of the most signal-rich stories published in the pas
 - Media, data & tech shaping the luxury industry
 
 CRITICAL RULES:
-1. Only include stories published within the last 7 days. You MUST verify the publication date from the search result before including any story. If you cannot confirm a date within the past 7 days, omit it.
+1. TIMELINESS IS THE HIGHEST PRIORITY.
+Only include stories published within the last 7 days.
+You MUST verify the publication date from the source before including any story.
+When selecting between stories of similar relevance, always prefer the most recently published article.
+Preference order:
+- Published in the last 24 hours (highest priority)
+- Published 2-3 days ago
+- Published 4-5 days ago
+- Published 6-7 days ago
+A story published yesterday with slightly lower relevance should generally be preferred over a story published 6-7 days ago.
+If you cannot confirm a publication date within the last 7 days, discard the story.
+Do not present developments, announcements, reports, studies, product launches, or platform updates as breaking news if the underlying event first occurred several weeks earlier, even if the article itself was recently republished or recirculated.
 2. Every story MUST have a real, working URL from a reputable, well-known publication. Acceptable sources include: major trade press (WWD, Business of Fashion, Vogue Business, Digiday, Adweek, Campaign, The Drum), leading business media (FT, WSJ, Bloomberg, Reuters, Forbes, Business Insider), top consultancies and research firms (McKinsey, Bain, BCG, Forrester, Gartner), and official company press releases on PR Newswire or BusinessWire. Do NOT use obscure blogs, low-authority websites, SEO content farms, or sources without clear editorial standards.
 3. Write in a sharp, confident editorial voice — no fluff, no hedging.
 4. Score each story 1–5 for relevance to a luxury media executive.
 5. Assign each story one category from: MAISONS & BRANDS, CREATIVE & CAMPAIGNS, POLICY & RISK, COMMERCE & RETAIL, DATA & PERFORMANCE, MEDIA & PLATFORMS.
 6. STRICT DEDUPLICATION: Before finalising your 5 stories, check every pair. If two stories cover the same underlying event, announcement, report, or deal — even from different publications — keep only ONE. Prefer the source that is FREE to access (no paywall). Only use a paywalled source if no free alternative covers the same story adequately. Paywalled sources include: Business of Fashion, WWD, Digiday (Digiday+), Campaign Live, MarketingProfs. Free sources include: Bain.com, PR Newswire, Digital Applied, Agile Brand Guide, Fashion Network, McKinsey, Adweek (partial), and most trade press. The final 5 must each cover a completely different news event.
 7. Do NOT include any story from the EXCLUDED RECENT ARTICLES list provided by the user — these have already been covered in previous editions. This includes stories covering the SAME UNDERLYING TOPIC or REPORT, even if from a different source or with a different headline. For example, if the Bain luxury report, the Hermès AI index, or any other specific study has appeared in the exclusion list, do not cover it again under any framing or source.
+8. FRESHNESS TEST:
+For every story, determine:
+- Publication date
+- Number of days since publication
+
+Stories older than 5 days should only be included when there is no stronger recent development available.
+
+Your final selection should maximize both relevance AND recency.
+9. The exclusion list applies not only to identical articles but also to the underlying event, announcement, study, report, product launch, platform update, or company news item. Do not re-cover the same news event from a different publication.
+
 
 Return ONLY valid JSON, no markdown, no preamble:
 {
   "date": "Day, D Month YYYY",
   "lede": "One sentence editorial summary of today's signal.",
+  "stories": [
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 5,
+      "headline": "Story headline here",
+      "summary": "MAXIMUM 3 sentences. No more. Sharp and editorial.",
+      "source": "Publication Name",
+      "date": "D Month YYYY",
+      "days_old": 1,
+      "url": "https://real-article-url.com"
+    }
+  ]
+}
   "stories": [
     {
       "category": "MAISONS & BRANDS",
@@ -90,7 +124,9 @@ def fetch_briefing(today_str: str, recent_articles: list) -> dict:
         exclusion_block = f"\n\nEXCLUDED RECENT ARTICLES — do not include any of these:\n{lines}"
 
     messages = [{"role": "user", "content": (
-        f"Today is {today_str}. Search for the 5 most important news stories published in the past 7 days "
+        f"Today is {today_str}. Search for the 5 most important and MOST RECENT news stories published in the past 7 days. "
+        f"Prioritize stories published in the last 72 hours whenever possible. "
+        f"Avoid selecting stories that are 5-7 days old unless they are significantly more important than newer alternatives. "
         f"at the intersection of AI, luxury, media, and technology. "
         f"For each story, confirm its publication date before including it. "
         f"Return only verified, linkable stories in the JSON format specified."
@@ -99,8 +135,8 @@ def fetch_briefing(today_str: str, recent_articles: list) -> dict:
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=4000,
-        tools=[{"type": "web_search_20250305", "name": "web_search"}],
+        max_tokens=16000,
+        tools=[{"type": "web_search_20260318", "name": "web_search"}],
         system=SYSTEM_PROMPT,
         messages=messages
     )
@@ -275,10 +311,51 @@ def main():
     recent_articles = load_history()
     print(f"Loaded {len(recent_articles)} recent articles to exclude.")
 
-    data = fetch_briefing(today_str, recent_articles)
-    if not data.get("stories"):
-        print("No stories found today — skipping.")
-        return
+    # Retry once if JSON parsing fails
+    data = None
+   for attempt in range(2):
+    try:
+        data = fetch_briefing(today_str, recent_articles)
+        break
+    except Exception as e:
+        print(f"Attempt {attempt + 1} failed: {e}")
+        if attempt == 1:
+            raise
+        print("Retrying...")
+
+# Validate story freshness
+MAX_AGE_DAYS = 7
+
+validated_stories = []
+
+for story in data.get("stories", []):
+    try:
+        pub_date = datetime.strptime(
+            story["date"],
+            "%d %B %Y"
+        )
+
+        age_days = (datetime.now() - pub_date).days
+
+        if age_days <= MAX_AGE_DAYS:
+            validated_stories.append(story)
+        else:
+            print(
+                f"Removing old story: "
+                f"{story['headline']} ({age_days} days old)"
+            )
+
+    except Exception as e:
+        print(
+            f"Could not validate date for "
+            f"{story.get('headline', 'Unknown')}: {e}"
+        )
+
+data["stories"] = validated_stories
+
+if not data.get("stories"):
+    print("No stories found today — skipping.")
+    return
 
     print(f"Found {len(data['stories'])} stories.")
 
