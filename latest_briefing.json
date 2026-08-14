@@ -1,52 +1,52 @@
 {
-  "date": "Thursday, 13 August 2026",
-  "lede": "AI is rewriting the rules of retail intelligence, agent-to-agent advertising, and luxury's ownership map simultaneously \u2014 forcing media, data, and brand executives to rethink every assumption about discovery, monetisation, and succession.",
+  "date": "Friday, 14 August 2026",
+  "lede": "From fashion's AI talent exodus to agentic commerce crossing the $3 trillion threshold, the week ends with signals that the industry's AI infrastructure is being stress-tested at every layer \u2014 from C-suite to checkout.",
   "stories": [
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 5,
+      "headline": "Lululemon's First-Ever AI Chief Exits After Less Than a Year as CEO Transition Looms",
+      "summary": "Ranju Das, Lululemon's inaugural Chief AI & Technology Officer, departed on 13 August 2026 \u2014 less than twelve months into the role \u2014 as incoming CEO Heidi O'Neill prepares to take the helm in September. Das, formerly CEO of UnitedHealth's R&D arm and an Amazon AI veteran, was the first executive at the retailer to hold the title; his exit follows the earlier departure of the chief strategy officer. The back-to-back leadership vacuum signals that O'Neill intends to reset Lululemon's AI and digital agenda from day one \u2014 a pattern worth watching across fashion's C-suite as new CEOs inherit AI mandates they didn't build.",
+      "source": "Bloomberg",
+      "date": "13 August 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-13/lululemon-s-ai-chief-departs-retailer-after-less-than-a-year"
+    },
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "EDITED Fires Its Retail Dataset Directly Into Claude \u2014 90,000 Brands, 5 Billion SKUs, Zero Tab-Switching",
-      "summary": "London-based retail intelligence platform EDITED has launched EDITED MCP, powered by Anthropic's Model Context Protocol, piping the world's largest aggregated retail dataset \u2014 spanning 90,000 brands and over five billion SKUs across apparel, beauty and home \u2014 natively into Claude Code, Claude Desktop, and custom-built AI agents. For luxury merchandising and performance teams, this collapses the gap between market intelligence and AI-driven decision-making: pricing, assortment, and trend data become live context inside the same workspace where agents act. The move signals a decisive shift from retail analytics as a dashboard to retail analytics as an always-on agent substrate.",
-      "source": "WWD / BusinessWire",
-      "date": "12 August 2026",
-      "url": "https://wwd.com/sourcing-journal/industry-news/edited-artificial-intelligence-anthropic-claude-mcp-1239122835/"
+      "headline": "Croud Consumer Index: AI-Assisted Fashion Shoppers Spend 56% More \u2014 and 69% of Americans Are Ready to Let AI Buy for Them",
+      "summary": "New research from global media and data agency Croud, published 11 August 2026, finds that 69% of Americans are open to AI purchasing on their behalf, with three in four willing to use AI-powered instant checkout in at least one category. Fashion is the standout vertical: AI-assisted shoppers spend 56% more than non-users and are 23% more likely to search by style or aesthetic rather than keyword. The report reframes brand storytelling, creators, and community as the critical conversion layer in an AI-mediated funnel \u2014 a direct challenge to luxury's performance marketing playbook.",
+      "source": "PR Newswire",
+      "date": "11 August 2026",
+      "url": "https://www.prnewswire.com/news-releases/croud-consumer-index-reveals-69-of-americans-would-let-ai-buy-for-them-without-approval-302848958.html"
     },
     {
-      "category": "POLICY & RISK",
-      "score": 5,
-      "headline": "Perplexity Blocks Time's AI Agent Ads and Threatens Publishers With Trust Score Penalties",
-      "summary": "Perplexity has blocked all markdown advertising embedded by Time into its pages \u2014 ads formatted as FAQ content by ad-tech firm Mobian and served invisibly to AI crawlers rather than human readers \u2014 calling the practice \"deceptive\" regardless of disclosure labels. In an emailed statement to Digiday, Perplexity warned that publishers deploying such markdown ads risk a reputational downgrade in its proprietary search index, including a direct hit to their trust score. The standoff crystallises a coming war between publishers monetising AI agent traffic and AI platforms that control which signals their models will and will not ingest \u2014 a battleground with direct implications for how luxury brands manage their content's discoverability.",
-      "source": "Digiday",
-      "date": "11 August 2026",
-      "url": "https://digiday.com/media/perplexity-blocks-times-ads-served-to-ai-agents-calling-them-deceptive/"
+      "category": "MEDIA & PLATFORMS",
+      "score": 4,
+      "headline": "Trade Desk Q2 Miss Triggers AI-First Reset: Zuma Platform and New Measurement Framework Move to the Front",
+      "summary": "The Trade Desk reported Q2 2026 revenue of $715 million (+3% YoY), falling short of expectations, with CEO Jeff Green attributing the shortfall to macro headwinds in autos and CPG rather than structural platform weakness. Green used the earnings call to announce Zuma \u2014 an imminent agentic platform upgrade built around human-machine dialogue and agentic workflows \u2014 alongside a new measurement framework currently in alpha, positioned as indisputable proof of media ROI. The dual pivot signals TTD's intent to make AI-native decisioning and transparent incrementality its core competitive moat heading into Q4 budget season.",
+      "source": "The Motley Fool",
+      "date": "13 August 2026",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/13/trade-desk-ttd-q2-2026-earnings-call-transcript/"
     },
     {
       "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "Bloomberg: The $289 Billion Resale Wave Is Rewriting Luxury's Economics \u2014 and Vestiaire Is Finally Near Profit",
-      "summary": "Bloomberg's Felix Salmon makes the case that the $289 billion and growing global resale market is no longer a fringe corrective to the primary luxury market \u2014 it is structurally reshaping how labels price, produce, and communicate value, with Vestiaire Collective targeting its first-ever annual profit more than 15 years after founding. Platforms including Vinted and The RealReal are scaling AI-powered authentication and personalisation at a pace that incumbent luxury groups cannot easily match internally. For LVMH and Kering, resale is no longer a brand-equity threat to be managed \u2014 it is a demand-side signal set that their data strategies must now ingest.",
-      "source": "Bloomberg",
-      "date": "11 August 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/vestiaire-the-realreal-vinted-vintage-fashion-is-changing-luxury-economics"
-    },
-    {
-      "category": "MAISONS & BRANDS",
-      "score": 4,
-      "headline": "Armani Stake Sale Slips: LVMH, L'Or\u00e9al and EssilorLuxottica Face a 2027-Plus Timeline",
-      "summary": "The planned sale of an initial 15% stake in Giorgio Armani \u2014 mandated by the late designer's will with priority rights given to LVMH, L'Or\u00e9al, and EssilorLuxottica \u2014 is unlikely to be completed before the March 2027 deadline, with Corriere della Sera citing board documents showing the process remains at an early stage due to market weakness and transaction complexity. The potential three-way split \u2014 roughly 5% each \u2014 would cement an unprecedented tri-conglomerate governance structure around one of fashion's last great independent houses. For LVMH, any delay prolongs strategic ambiguity over one of the most commercially significant succession decisions in luxury's recent history.",
-      "source": "TheIndustry.fashion",
-      "date": "11 August 2026",
-      "url": "https://www.theindustry.fashion/armani-stake-sale-delay-succession-2027/"
+      "headline": "Agentic Commerce Is a $3 Trillion Structural Shift \u2014 and Luxury's Discovery Layer Is Already Eroding",
+      "summary": "Speaking at the National Retail Convention and Expo, Salesforce's Lorenzo Capinpin called agentic commerce not a tech upgrade but a $3 trillion global retail opportunity by 2030, as 21% of shoppers now initiate purchase journeys inside AI platforms rather than search engines or brand sites. The shift directly compresses fashion and luxury brands' ability to control discovery, editorial framing, and the first moment of consideration \u2014 precisely the territory where maisons invest most heavily. Executives were advised to prioritise human-AI collaboration frameworks and unify data infrastructure before agentic adoption outpaces brand readiness.",
+      "source": "BusinessWorld Online",
+      "date": "13 August 2026",
+      "url": "https://bworldonline.com/technology/2026/08/13/769789/rise-of-agentic-commerce-may-change-retail-space/"
     },
     {
       "category": "CREATIVE & CAMPAIGNS",
       "score": 3,
-      "headline": "Society Management and Canopy Talent Partner to Route Luxury and Beauty Brands Into College Sports' NIL Economy",
-      "summary": "Society Management \u2014 the agency representing global modelling and creative talent \u2014 has teamed with collegiate sports agency Canopy Talent to give fashion, beauty, and luxury brands structured access to college athletes through NIL (Name, Image, Likeness) activations, citing IAB data projecting U.S. creator advertising spend at $44 billion in 2026 and Goldman Sachs' $480 billion global creator economy forecast for 2027. The deal is designed to move luxury brands beyond one-off social posts into longer-arc, performance-tracked partnerships with women's and Olympic sport athletes \u2014 a segment Canopy argues is systematically undervalued relative to its audience reach. As luxury recalibrates its influencer mix toward credibility and cultural specificity over follower count, the college athlete pipeline offers an authenticity vector that algorithmic channels alone cannot manufacture.",
-      "source": "WWD",
-      "date": "13 August 2026",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/society-management-anopy-talent-college-athletes-1239123276/"
+      "headline": "ImagineArt's AI Fashion Studio Promises Catalog-Quality Photography and Video \u2014 No Model, No Shoot Required",
+      "summary": "Launched 11 August 2026, ImagineArt's AI Fashion Studio lets brands build a reusable AI fashion model, dress it in real garments, and generate finished catalog or editorial images and video in a single workflow \u2014 eliminating the physical shoot entirely. The product integrates with the company's AI Ad Studio and AI Film Studio, so the same AI model can be repurposed for UGC, unboxing, or virtual try-on video ads sized for Meta, TikTok, and YouTube. The launch tightens content production economics industry-wide and raises an immediate strategic question for luxury maisons: where does AI-generated imagery sit relative to the handcrafted visual codes that sustain brand desirability?",
+      "source": "The Globe and Mail",
+      "date": "11 August 2026",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Newsfile/3778914/imagineart-launches-ai-fashion-studio/"
     }
   ],
-  "date_slug": "2026-08-13"
+  "date_slug": "2026-08-14"
 }
