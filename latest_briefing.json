@@ -1,52 +1,52 @@
 {
-  "date": "Monday, 17 August 2026",
-  "lede": "Stripe swallows the AI model routing layer for $7B+, European luxury publishers bleed content to scrapers at 4x the North American rate, and Digiday calls time on the public ad-tech era \u2014 a trifecta of infrastructure shifts that should reorder every luxury media budget conversation this week.",
+  "date": "Tuesday, 18 August 2026",
+  "lede": "AI creative infrastructure goes supernova \u2014 as Higgsfield quadruples its valuation overnight, a fashion-native GenAI canvas challenger arrives, and the model powering it all turns its first profit.",
   "stories": [
-    {
-      "category": "COMMERCE & RETAIL",
-      "score": 5,
-      "headline": "Stripe Finalises $7B+ Acquisition of OpenRouter \u2014 Payments Giant Now Controls the AI Model Routing Layer",
-      "summary": "Stripe has closed its deal to acquire OpenRouter \u2014 which routes developer access across 400+ AI models from OpenAI, Anthropic, Google and Meta \u2014 for more than $7 billion, a 5x premium on its May 2026 valuation, per Bloomberg. OpenRouter's ARR exploded from $19M at end-2025 to $50M by March 2026; Stripe was already its payments processor, meaning this converts a billing partnership into outright ownership of the infrastructure that agentic commerce runs on. For LVMH maisons building AI-powered clienteling, product recommendation or agentic checkout stacks, the company that now settles your AI compute bill is the same one that will route your model calls.",
-      "source": "Bloomberg",
-      "date": "16 August 2026",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
-    },
     {
       "category": "MEDIA & PLATFORMS",
       "score": 5,
-      "headline": "European Publishers Scraped by AI Bots at 4x North American Rate \u2014 and It Is Accelerating",
-      "summary": "TollBit's latest State of AI Monetization report, surfaced by Digiday, finds European publishers receive just one human referral visit for every 179 AI bot visits \u2014 more than three times worse than North American peers \u2014 with the scrape-to-referral ratio deteriorating from 150:1 in Q1 to 227:1 in Q2 2026, and AI scrapes running nearly 20% higher in June than in January. Fifteen percent of identified AI page-fetching agents actively violated robots.txt disallow instructions on European sites, with the widest offender being the most widely used AI assistant on the market. Luxury media titles \u2014 from Vogue Paris to Cond\u00e9 Nast Italia \u2014 are providing the rich editorial training data that fuels AI recommendations, while receiving nothing in return except eroding referral traffic.",
-      "source": "Digiday",
-      "date": "14 August 2026",
-      "url": "https://digiday.com/media/european-publishers-are-getting-hit-harder-by-ai-bot-scraping-report-finds/"
+      "headline": "Higgsfield Raises $400M at $5.4B Valuation to Scale AI Video and Image Creation for Brands",
+      "summary": "The AI video and image platform \u2014 whose Soul 2.0 model was purpose-built for luxury fashion and editorial photography \u2014 raised a $400M Series B led by DST Global, with Goldman Sachs and Intel Capital joining, quadrupling its valuation to $5.4B in just eight months. Annualised revenue hit $700M, with enterprise clients spanning advertising, media, fashion, and retail \u2014 signalling that AI campaign production infrastructure is now a billion-dollar institutional bet. For luxury creative and media teams, this is the clearest signal yet that AI-generated editorial content has crossed from experiment to production at scale.",
+      "source": "TechCrunch",
+      "date": "17 August 2026",
+      "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/"
+    },
+    {
+      "category": "CREATIVE & CAMPAIGNS",
+      "score": 5,
+      "headline": "Flora Launches Fashion Studio, Pitching Itself as the 'Next Adobe' for the Generative Era",
+      "summary": "Brooklyn-based startup Flora officially launched Fashion Studio \u2014 a multi-model AI canvas wiring together 50+ image, video, and text models (Flux, Veo, Kling, GPT) into a single workflow spanning garment rendering, virtual try-on, campaign generation, and Shopify export, with WWD explicitly framing it as the first credible challenger to Adobe's creative dominance in fashion. The tool is designed so fashion teams can go from ideation to campaign-ready assets without switching platforms or learning new model interfaces. For luxury Maisons preparing September show campaigns, this is the production stack question arriving on every creative director's desk.",
+      "source": "WWD",
+      "date": "17 August 2026",
+      "url": "https://wwd.com/sourcing-journal/industry-news/adobe-flora-fashion-studio-generative-ai-1239125605/"
+    },
+    {
+      "category": "DATA & PERFORMANCE",
+      "score": 4,
+      "headline": "New Research Benchmarks AI Shopping Agent Adoption \u2014 and Identifies Who Controls the Luxury Purchase Journey",
+      "summary": "ResearchAndMarkets published its definitive 'AI Shopping Agents and Agentic Commerce 2026' intelligence report, analysing global AI-driven commerce from product discovery to payment execution and naming control of interfaces and infrastructure as the defining competitive variable. The report arrives as luxury brands face a structural threat: AI agents completing purchases autonomously bypass branded touchpoints, editorial, and DTC discovery channels entirely. The central question for every luxury media executive: if the agent decides, who owns the relationship?",
+      "source": "GlobeNewswire / ResearchAndMarkets",
+      "date": "17 August 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/08/17/3345937/28124/en/ai-shopping-agents-and-agentic-commerce-2026-adoption-trends-and-execution-limits.html"
     },
     {
       "category": "MAISONS & BRANDS",
       "score": 4,
-      "headline": "Frasers Acquires Harvey Nichols for $54M \u2014 But Analysts Warn Turnaround Could Cost $270M",
-      "summary": "Mike Ashley's Frasers Group has taken Harvey Nichols out of administration for approximately $54M (\u00a340M), gaining six UK stores, 800+ luxury brand relationships across fashion, beauty and hospitality, and an e-commerce platform \u2014 but retail analysts quoted by Glossy warn that a credible turnaround could demand up to $270M in investment. The deal draws immediate comparisons to Frasers' 2023 Matchesfashion acquisition, which collapsed into administration within three months, stoking anxiety among the luxury brand partners who have already signalled discomfort with Ashley's discount-retail DNA. For luxury conglomerates with wholesale exposure to Harvey Nichols, the urgent question is whether Frasers can sustain the ultra-premium service model and clienteling infrastructure that brands like LVMH and Kering require.",
-      "source": "Glossy",
-      "date": "14 August 2026",
-      "url": "https://www.glossy.co/fashion/luxury/luxury-briefing-frasers-harvey-nichols-acquisition-turnaround/"
+      "headline": "Anthropic Posts $11.5B in Q2 Revenue \u2014 a 14x Jump \u2014 and Its First Profitable Quarter",
+      "summary": "Claude maker Anthropic reported preliminary Q2 2026 revenue exceeding $11.5B \u2014 up 14-fold year-over-year from $787M and more than double Q1's $4.7B \u2014 while achieving positive adjusted operating income for the first time, per Bloomberg documents reported by CNBC. The milestone matters for luxury: Claude is embedded in brand AI stacks, agency workflows, and retail personalisation engines across the sector, meaning the foundational model layer has crossed from subsidised experiment to financially sustainable infrastructure. An IPO is now in preparation, which would further entrench Claude as enterprise-grade AI backbone for the industry.",
+      "source": "CNBC",
+      "date": "15 August 2026",
+      "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html"
     },
     {
-      "category": "POLICY & RISK",
-      "score": 4,
-      "headline": "France's Top Court Strikes Down Social Media Ban for Under-15s \u2014 A Reprieve for Luxury's Gen Z Pipeline",
-      "summary": "France's Constitutional Council ruled on Friday that a proposed law banning social media access for under-15s infringed upon freedom of expression, blocking President Macron's flagship digital protection legislation and sending his government back to the drawing board. The ruling preserves luxury brands' ability to reach Gen Z audiences on Instagram, TikTok and Snapchat in France without age-gating restrictions \u2014 a market where maisons from Dior to Cartier have invested heavily in platform-native content and creator partnerships. Had the ban passed, luxury houses would have faced the prospect of designing two-tier social strategies: one for legally unreachable minors and one for a truncated adult-only feed, across a key European market.",
-      "source": "Reuters",
-      "date": "14 August 2026",
-      "url": "https://www.usnews.com/news/world/articles/2026-08-14/frances-top-court-rules-social-media-ban-curtails-freedom-of-expression"
-    },
-    {
-      "category": "DATA & PERFORMANCE",
-      "score": 5,
-      "headline": "Digiday Declares the Public Ad-Tech Era Over as Big Tech Locks Up 56% of U.S. Ad Spend",
-      "summary": "Digiday's Friday Future of Marketing Briefing issued a verdict the buy-side has been avoiding: the era of publicly listed, open-web ad-tech platforms is structurally finished \u2014 Amazon, Google and Meta now capture roughly 56% of U.S. ad spend, and Wall Street is systematically de-rating the independent holdouts as Q2 earnings confirmed the rot, with activation revenue at some platforms declining for the first time ever. The briefing notes that a handful of scaled, still-growing platforms remain public but the slower-growth utility-margin names are exiting one by one, with more take-private deals expected before year-end. For luxury performance teams still allocating meaningful budgets to open-web programmatic, this is the clearest signal yet that the architecture underpinning those buys is in structural retreat.",
-      "source": "Digiday",
-      "date": "14 August 2026",
-      "url": "https://digiday.com/marketing/future-of-marketing-briefing-the-public-ad-tech-era-is-over/"
+      "category": "COMMERCE & RETAIL",
+      "score": 3,
+      "headline": "Target Builds Proxima, an AI-Powered Digital Twin for Middle-Mile Inventory \u2014 and Signals the Future of Retail Supply Chain",
+      "summary": "Target revealed Proxima, a proprietary digital twin of its middle-mile inventory positioning system, which simulates goods flow between warehouses and stores and is already informing future AI-powered supply chain decisions \u2014 with the first deployment tested at its new Houston Receive Center. The system, developed internally by Target's supply chain, product, and engineering teams, represents the emerging category of AI-native retail operations infrastructure that premium and luxury retailers will need to compete in on-demand fulfilment. While Target is not a luxury player, Proxima is a blueprint signal for how Maisons managing complex global distribution networks will need to approach AI-enabled logistics intelligence.",
+      "source": "WWD",
+      "date": "18 August 2026",
+      "url": "https://wwd.com/sourcing-journal/industry-news/target-inventory-digital-twin-middle-mile-1239127109/"
     }
   ],
-  "date_slug": "2026-08-17"
+  "date_slug": "2026-08-18"
 }

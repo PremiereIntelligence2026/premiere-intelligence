@@ -1,35 +1,5 @@
 [
   {
-    "url": "https://demurdesign.com/ai-news-recap-august-7-2026/",
-    "headline": "Google AI Max to Auto-Upgrade All ACA and Broad-Match Search Campaigns on 1 September \u2014 Luxury Advertisers Have 3 Weeks",
-    "sent_at": "2026-08-10T08:08:20.284749-04:00",
-    "date": "Monday, 10 August 2026"
-  },
-  {
-    "url": "https://www.marketscale.com/industries/software-and-technology/meta-is-building-a-cloud-business-to-sell-ai-compute-putting-pressure-on-aws-azure-and-google-cloud",
-    "headline": "Meta Formalises Meta Compute Cloud Business \u2014 Its $145B AI Infrastructure Is Now an Enterprise Revenue Play",
-    "sent_at": "2026-08-10T08:08:20.284771-04:00",
-    "date": "Monday, 10 August 2026"
-  },
-  {
-    "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
-    "headline": "Meta Launches Muse Code \u2014 An AI Coding Agent Built to Undercut Anthropic and OpenAI at Enterprise Scale",
-    "sent_at": "2026-08-10T08:08:20.284775-04:00",
-    "date": "Monday, 10 August 2026"
-  },
-  {
-    "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-august-7-2026/",
-    "headline": "PubMatic Embeds Five-Step Agentic Guardrail Architecture Into AgenticOS \u2014 A New Governance Standard for Autonomous Luxury Media Buying",
-    "sent_at": "2026-08-10T08:08:20.284778-04:00",
-    "date": "Monday, 10 August 2026"
-  },
-  {
-    "url": "https://petapixel.com/2026/08/03/police-investigate-tiktoker-accused-of-secretly-filming-strangers-with-meta-smart-glasses/",
-    "headline": "Police Scotland Investigates TikToker for Covert Filming With Meta Ray-Ban Smart Glasses \u2014 Luxury Boutiques Are the Next Frontier",
-    "sent_at": "2026-08-10T08:08:20.284781-04:00",
-    "date": "Monday, 10 August 2026"
-  },
-  {
     "url": "https://searchengineland.com/chatgpt-ads-rolls-out-ocpc-campaigns-aam-and-product-carousels-484494",
     "headline": "ChatGPT Ads Rolls Out oCPC Bidding, Multi-Product Carousels and Automatic Advanced Matching \u2014 A New Performance Tier Opens for Luxury E-Commerce",
     "sent_at": "2026-08-11T08:09:41.682887-04:00",
@@ -178,5 +148,35 @@
     "headline": "Digiday Declares the Public Ad-Tech Era Over as Big Tech Locks Up 56% of U.S. Ad Spend",
     "sent_at": "2026-08-17T07:54:23.678934-04:00",
     "date": "Monday, 17 August 2026"
+  },
+  {
+    "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
+    "headline": "Higgsfield Raises $400M at $5.4B Valuation to Scale AI Video and Image Creation for Brands",
+    "sent_at": "2026-08-18T07:57:08.365623-04:00",
+    "date": "Tuesday, 18 August 2026"
+  },
+  {
+    "url": "https://wwd.com/sourcing-journal/industry-news/adobe-flora-fashion-studio-generative-ai-1239125605/",
+    "headline": "Flora Launches Fashion Studio, Pitching Itself as the 'Next Adobe' for the Generative Era",
+    "sent_at": "2026-08-18T07:57:08.365642-04:00",
+    "date": "Tuesday, 18 August 2026"
+  },
+  {
+    "url": "https://www.globenewswire.com/news-release/2026/08/17/3345937/28124/en/ai-shopping-agents-and-agentic-commerce-2026-adoption-trends-and-execution-limits.html",
+    "headline": "New Research Benchmarks AI Shopping Agent Adoption \u2014 and Identifies Who Controls the Luxury Purchase Journey",
+    "sent_at": "2026-08-18T07:57:08.365646-04:00",
+    "date": "Tuesday, 18 August 2026"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+    "headline": "Anthropic Posts $11.5B in Q2 Revenue \u2014 a 14x Jump \u2014 and Its First Profitable Quarter",
+    "sent_at": "2026-08-18T07:57:08.365648-04:00",
+    "date": "Tuesday, 18 August 2026"
+  },
+  {
+    "url": "https://wwd.com/sourcing-journal/industry-news/target-inventory-digital-twin-middle-mile-1239127109/",
+    "headline": "Target Builds Proxima, an AI-Powered Digital Twin for Middle-Mile Inventory \u2014 and Signals the Future of Retail Supply Chain",
+    "sent_at": "2026-08-18T07:57:08.365650-04:00",
+    "date": "Tuesday, 18 August 2026"
   }
 ]
