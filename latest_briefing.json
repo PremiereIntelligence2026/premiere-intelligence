@@ -1,52 +1,52 @@
 {
-  "date": "Wednesday, 19 August 2026",
-  "lede": "OpenAI opens its ad platform to 31 European markets as Est\u00e9e Lauder beats full-year estimates, LVMH accelerates its DFS exit, and the ANA forces a reckoning on retail media measurement \u2014 a session of high-voltage signal for every luxury media executive.",
+  "date": "Thursday, 20 August 2026",
+  "lede": "AI measurement gaps, creator-driven search visibility, and a $350m media rebate scandal are reshaping how luxury brands buy, place, and prove the value of every ad dollar.",
   "stories": [
-    {
-      "category": "MEDIA & PLATFORMS",
-      "score": 5,
-      "headline": "OpenAI Takes ChatGPT Ads Into Europe, Targeting 31 Markets From August 24",
-      "summary": "Six months after its U.S. pilot, OpenAI is rolling ChatGPT Ads out across Germany, France, Italy, Spain and 27 other European markets starting August 24 \u2014 built on a consent-first GDPR architecture that places ads below responses, visible only to Free and Go plan users. Advertisers access inventory via OpenAI's Ads Solutions team and agency partners, with self-serve launching later in the summer; chat histories are explicitly off-limits to brands. For luxury houses with significant European media budgets, this is the opening of a new intent-rich, high-consideration channel that sits upstream of search and downstream of desire.",
-      "source": "Digiday",
-      "date": "19 August 2026",
-      "url": "https://digiday.com/marketing/openais-ads-business-hits-europe-at-the-six-month-mark/"
-    },
-    {
-      "category": "MAISONS & BRANDS",
-      "score": 5,
-      "headline": "LVMH Sells Abu Dhabi DFS Concessions to Falic Group in Latest Travel Retail Exit",
-      "summary": "Miami-based Duty Free Americas operator Falic Group has agreed to acquire 100% of DFS's luxury travel retail footprint at Zayed International Airport \u2014 roughly 30 stores spanning watches, jewellery, fashion and accessories \u2014 with the deal expected to close Q3 2026. The transaction is the latest chapter in LVMH's deliberate, multi-year unwinding of its DFS travel retail empire, following earlier sales of Greater China and other assets. As LVMH repatriates capital from third-party concession retail, the question for the sector is where that strategic energy \u2014 and data \u2014 gets redeployed.",
-      "source": "WWD",
-      "date": "19 August 2026",
-      "url": "https://wwd.com/business-news/mergers-acquisitions/falic-dfs-abu-dhabi-travel-retail-lvmh-1239127708/"
-    },
-    {
-      "category": "MAISONS & BRANDS",
-      "score": 4,
-      "headline": "Est\u00e9e Lauder Beats Full-Year FY2026 Estimates on China Fragrance Surge and AI-Driven Turnaround",
-      "summary": "Reporting Q4 and full-year fiscal 2026 results this morning, Est\u00e9e Lauder forecast annual profit above Wall Street estimates, crediting sustained premium fragrance demand \u2014 led by Le Labo and Tom Ford \u2014 and high single-digit growth in Mainland China, where the company outperformed prestige beauty for a fourth consecutive quarter. CEO St\u00e9phane de La Faverie's Beauty Reimagined programme, which includes AI-powered personalisation partnerships with Google, Microsoft and Shopify, appears to be delivering margin expansion ahead of schedule. For luxury beauty peers watching China's recovery signals, EL's data is now the clearest positive read-through of the season.",
-      "source": "Business of Fashion",
-      "date": "19 August 2026",
-      "url": "https://www.businessoffashion.com/news/beauty/estee-lauder-forecasts-annual-profit-above-estimates-on-strong-china-demand/"
-    },
     {
       "category": "DATA & PERFORMANCE",
       "score": 5,
-      "headline": "ANA Drops Retail Media Measurement Framework as 55% of Advertisers Cite Inconsistency as Top Barrier",
-      "summary": "The Association of National Advertisers published its first Retail Media Measurement Standardisation report on Tuesday, finding that 55% of brand advertisers consider inconsistent metrics the single biggest blocker to retail media success \u2014 even as the channel hurtles toward a projected $90 billion by 2028 at a 17% CAGR. The ANA recommends a standardised 14-day lookback attribution window and calls for independent third-party measurement across retail media networks, directly challenging walled-garden data practices. Luxury brands increasing commerce media spend across fragmented RMNs \u2014 from Sephora to Net-a-Porter \u2014 now have an industry framework to demand accountability with.",
+      "headline": "Ads Served to AI Agents Have a Measurement Problem Nobody Has Solved Yet",
+      "summary": "Digiday's Thursday Media Briefing reveals that while publishers like Time are now selling ads into the markdown layer of their pages \u2014 targeting AI crawlers rather than human readers \u2014 no reliable measurement standard exists to confirm whether an agent actually processed, surfaced, or acted on the sponsored content. A publisher can use Cloudflare to verify that an AI bot crawled a page containing an ad, but that is a fundamentally different signal from attribution. With 26% of ChatGPT responses already containing a sponsored ad, the gap between inventory and proof is the most urgent infrastructure problem in performance media right now.",
       "source": "Digiday",
-      "date": "18 August 2026",
-      "url": "https://digiday.com/marketing/ana-updates-efforts-to-standardize-retail-media-network-measurement/"
+      "date": "20 August 2026",
+      "url": "https://digiday.com/media/media-briefing-ads-for-ai-agents-have-a-measurement-problem/"
+    },
+    {
+      "category": "MEDIA & PLATFORMS",
+      "score": 4,
+      "headline": "Brands Are Hiring Creators Specifically to Get Cited by AI Chatbots",
+      "summary": "A new Digiday investigation confirms that 'AI visibility' is now a formal deliverable on creator briefs: brands including luxury-adjacent names are selecting influencers not for reach or engagement, but for how frequently they are cited inside LLM responses. Because AI chatbots crawl public content \u2014 blogs, social posts, editorial \u2014 to answer shopping queries, a creator's authentic product review can function as a backdoor recommendation engine inside ChatGPT or Perplexity. For luxury media teams, this represents a structural shift: earned media equity is now measured in LLM citation frequency, not impressions.",
+      "source": "Digiday",
+      "date": "20 August 2026",
+      "url": "https://digiday.com/marketing/creators-are-moving-into-brands-ai-search-playbooks/"
     },
     {
       "category": "COMMERCE & RETAIL",
       "score": 4,
-      "headline": "Shein Opens Hong Kong IPO Book Today at $26\u201327B Valuation \u2014 a 73% Collapse From Its 2022 Peak",
-      "summary": "Fast-fashion giant Shein officially launched its Hong Kong IPO book today targeting a $26\u201327 billion valuation and approximately $2 billion in proceeds, with trading expected before month-end \u2014 a stunning reset from its $98.2 billion private market peak in 2022. The company disclosed a $99 million Q1 2026 net loss versus $395 million profit a year prior, with growth slowing under pressure from Temu competition, the new EU levy on sub-\u20ac150 parcels, and AI-powered pricing transparency eroding its edge. For luxury players, Shein's deflated IPO is a data point on the limits of algorithmic fast fashion \u2014 and a signal that the race to the bottom has structural ceilings.",
-      "source": "Bloomberg via Yahoo Finance",
-      "date": "17 August 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-said-target-27-billion-143209036.html"
+      "headline": "Remark AI Launches In-Home Luxury Shopping Advisor with Real-Time Virtual Try-On",
+      "summary": "Remark AI \u2014 the commerce intelligence platform acquired by MySize \u2014 is rolling out an 'AI shopping advisor' purpose-built for luxury brands that combines real-time virtual try-on with persistent, memory-enabled styling guidance across an entire session. Unlike static try-on tools, Remark's platform allows shoppers to stand, move, and see how fabric drapes and shifts on their body in motion, while the same AI agent maintains full context through post-purchase service interactions. The proposition targets the clienteling gap: replicating the intuition and memory of a high-end human advisor at digital scale.",
+      "source": "WWD",
+      "date": "19 August 2026",
+      "url": "https://wwd.com/sourcing-journal/industry-news/remark-brings-luxury-shopping-to-consumers-living-room-1239142699/"
+    },
+    {
+      "category": "POLICY & RISK",
+      "score": 4,
+      "headline": "Sony's Own Forensic Probe Backs WPP Whistleblower: $350M in Retained Rebates Alleged",
+      "summary": "An amended legal complaint filed by former GroupM executive Richard Foster \u2014 published days before a court hearing on WPP's bid to dismiss the suit \u2014 now alleges that Sony conducted an independent forensic investigation into WPP's media practices and reached conclusions aligned with Foster's original claims, finding that WPP wrongly retained $350m in China rebate funds while passing only $110m to clients. The filing introduces new class-action allegations of principal media double- and triple-dipping, and names WPP Media CEO Brian Lesser as a defendant in related proceedings. For luxury advertisers with significant GroupM exposure, this is the accountability reckoning that principal trading debates have been building toward for a decade.",
+      "source": "The Media Leader",
+      "date": "18 August 2026",
+      "url": "https://uk.themedialeader.com/seven-things-you-need-to-know-about-the-ex-wpp-whistleblowers-latest-legal-filing/"
+    },
+    {
+      "category": "MAISONS & BRANDS",
+      "score": 4,
+      "headline": "Gen Z Luxury Shoppers Now Check Resale Value Before Buying New \u2014 And AI Can't Authenticate What They Find",
+      "summary": "Bloomberg's interview with RealReal CEO Rati Sahi Levesque reveals that more than 80% of the platform's fastest-growing cohort \u2014 Gen Z and millennials \u2014 now scan the secondary market before purchasing new luxury goods, using resale prices as a proxy for product investment value. Chanel's Classic Flap has doubled to $11,700 since 2019; Louis Vuitton ranks among the most-searched brands on the platform \u2014 underscoring how price escalation by maisons is inadvertently training a new generation to treat luxury as an asset class. Critically, Levesque told Bloomberg that AI still cannot fully replace human authenticators, flagging a hard ceiling on automation in luxury resale operations.",
+      "source": "Bloomberg",
+      "date": "18 August 2026",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-18/gen-z-luxury-buyers-are-scanning-resale-first-realreal-ceo-says"
     }
   ],
-  "date_slug": "2026-08-19"
+  "date_slug": "2026-08-20"
 }
